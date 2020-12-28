@@ -1,8 +1,37 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="page-contents">
+    <g-header />
+    <div>
+      <Nuxt />
+    </div>
   </div>
 </template>
+
+<script>
+  import GHeader from '../components/Header'
+  // import GlobalFooter from '../components/GlobalFooter'
+
+  export default {
+    components: {
+      GHeader
+    },
+    computed: {
+      currentPageForCanonical() {
+        return this.$route.path.slice(1)
+      }
+    },
+    head() {
+      return {
+        link: [
+          {
+            rel: 'canonical',
+            href: `https://cjmtokyo.com/${this.currentPageForCanonical}`
+          }
+        ]
+      }
+    }
+  }
+</script>
 
 <style>
 html {
@@ -22,6 +51,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  margin: 0;
+  color: #707070;
+  font-style: normal;
+  font-weight: 500;
 }
 
 *,
@@ -31,32 +64,21 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+@media screen and (min-width: 769px) {
+  .display-none-pc {
+    display: none !important;
+  }
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+@media screen and (max-width: 768px) {
+    .display-none-mobile{
+      display: none !important;
+    }
 }
 </style>
