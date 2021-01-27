@@ -4,16 +4,18 @@
     <div>
       <Nuxt />
     </div>
+    <g-footer />
   </div>
 </template>
 
 <script>
   import GHeader from '../components/Header'
-  // import GlobalFooter from '../components/GlobalFooter'
+  import GFooter from '../components/Footer'
 
   export default {
     components: {
-      GHeader
+      GHeader,
+      GFooter
     },
     computed: {
       currentPageForCanonical() {
@@ -25,7 +27,7 @@
         link: [
           {
             rel: 'canonical',
-            href: `https://cjmtokyo.com/${this.currentPageForCanonical}`
+            href: `https://launion.page/${this.currentPageForCanonical}`
           }
         ]
       }
@@ -34,6 +36,13 @@
 </script>
 
 <style>
+/* gridlex */
+[class*="grid-"], [class^="grid"] {
+    margin: 0;
+}
+[class*="col-"], [class^="col"] {
+    padding: 0;
+}
 html {
   font-family:
     'Source Sans Pro',
@@ -52,7 +61,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   margin: 0;
-  color: #707070;
+  color: #939597;
   font-style: normal;
   font-weight: 500;
 }
@@ -73,6 +82,13 @@ ul{
 @media screen and (min-width: 769px) {
   .display-none-pc {
     display: none !important;
+  }
+  body {
+    font-size: 14px;
+    letter-spacing: .2rem;
+  }
+  p {
+    line-height: 3;
   }
 }
 

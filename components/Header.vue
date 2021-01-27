@@ -1,9 +1,9 @@
 <template>
-  <header>
+  <header style="background-color: #000">
     <div class="grid display-none-mobile">
       <div class="col-4">
         <NuxtLink to="/">
-          <img src="~assets/union.png" width="auto" height="60px" style="padding: 1rem .3rem 1rem 1.5rem;margin: 2rem 0;vertical-align: middle;box-sizing: content-box" alt="union">
+          <img src="~assets/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union">
         </NuxtLink>
       </div>
       <div class="grid col-8">
@@ -40,35 +40,25 @@
       <transition name="trans_slide">
         <ul class="menu" v-if="isMenuShow">
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/room">
-              ROOM
-            </NuxtLink>
+            <NuxtLink to="/room">ROOM</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/restaurant">
-              RESTAURANT
-            </NuxtLink>
+            <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/aboutus">
-              ABOUT US
-            </NuxtLink>
+            <NuxtLink to="/aboutus">ABOUT US</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/access">
-              ACCESS
-            </NuxtLink>
+            <NuxtLink to="/access">ACCESS</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/contact">
-              CONTACT
-            </NuxtLink>
+            <NuxtLink to="/contact">CONTACT</NuxtLink>
           </li>
         </ul>
       </transition>
-      <div>
+      <div class="col" style="text-align: center">
         <NuxtLink to="/" id="home" style="z-index: 9999">
-          <img src="~assets/union.png" width="70%" height="auto" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: 1.5rem 0 .5rem .2rem;vertical-align: middle;box-sizing: content-box" alt="union">
+          <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
         </NuxtLink>
       </div>
       <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
@@ -86,7 +76,7 @@
 
 <script>
   export default {
-    name: 'global_header',
+    name: 'g-header',
     
     data() {
       return {
@@ -121,7 +111,7 @@
 
 header a{
   text-decoration: none;
-  color: #999;
+  color: #939597;
 }
 .menu{
     padding-bottom: .5rem;
@@ -163,7 +153,7 @@ header a{
     z-index: 999;
     border-radius: 32px;
     position: absolute;
-    margin: 9% 0 0 auto;
+    margin: 2.5% 0 0 auto;
     top: 0;
 }
 .menu-trigger span {
@@ -173,13 +163,13 @@ header a{
     left: 14px;
     width: 36px;
     height: 4px;
-    background-color: #333;
+    background-color: #939597;
     transition: all .5s;
     z-index: 10;
 }
 
 .menu-trigger.active span {
-    background-color: #333;
+    background-color: #939597;
 }
 
 .menu-trigger span:nth-of-type(1) {
@@ -202,11 +192,11 @@ header a{
 }
 
 .menu-trigger span:nth-of-type(4) {
-    color: #333;
+    color: #939597;
     left: 16px;
     top: 34px;
     font-size: .8rem;
-    background: white;
+    background-color: black;
     z-index: 3;
 }
 .menu-trigger.active span:nth-of-type(4) {
@@ -227,14 +217,14 @@ header a{
     padding: 0;
 }
 .menu-container .menu .menu-item {
-    background: #fff;
+    background-color: black;
     flex: 1;
 }
 .menu-container .menu .menu-item a {
     border-right: 1px solid #ccc;
-    color: #333;
+    color: #939597;
     display: block;
-    padding: 0.6em 0.4em;
+    padding: 1rem 0;
     text-align: center;
     text-decoration: none;
 }
