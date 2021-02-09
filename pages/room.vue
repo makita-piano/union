@@ -5,10 +5,60 @@
       <h1 class="header-img-h1">ROOMS</h1>	
     </div>
     <div class="grid-center col-12">
-      <div class="grid col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
-        <p>
-ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。
-        </p>
+      <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
+        <div class="grid col-12" style="background: #eee;padding: 1rem">
+          <div class="grid col-6_sm-12">
+            <img src="~assets/room.png" width="100%" alt="top">
+          </div>
+          <div class="grid col-6_sm-12">
+            <div class="col-12">
+              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">type A</h3>
+            </div>
+            <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+            <div class="grid col-12" style="padding: 0 2rem">
+              <div class="col-4" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
+                受入人数
+              </div>
+              <div class="col-8" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
+                2人
+              </div>
+              <div class="col-4" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
+                料金
+              </div>
+              <div class="col-8" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
+                2,500円
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
+        <div class="grid col-12" style="background: #eee;padding: 1rem">
+          <div class="grid col-6_sm-12">
+            <img src="~assets/room.png" width="100%" alt="top">
+          </div>
+          <div class="grid col-6_sm-12">
+            <div class="col-12">
+              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">type B</h3>
+            </div>
+            <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-center col-12" style="margin-top: 2rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">Facilities common</h2>
+        <div style="text-align: center">客室共通設備</div>
+      </div>
+      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+        <div class="grid col-6_sm-12">
+  <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
+        </div>
+        <div class="grid col-6_sm-12">
+          <img src="~assets/room.png" width="100%" alt="top">
+        </div>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div class="grid col-12">
       <div class="col-12 text-align-center-pc">
         TEL：024-572-5838<br class="display-none-pc"><span class="display-none-mobile">　／</span>
-        〒111-1111<br class="display-none-pc">
+        〒960-8041<br class="display-none-pc">
         福島県福島市大町1－12　長谷川第2ビル
       </div>
     </div>
