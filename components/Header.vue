@@ -19,11 +19,6 @@
             </NuxtLink>
           </li>
           <li class="col-middle" style="text-align: center">
-            <NuxtLink to="/aboutus">
-              ABOUT US
-            </NuxtLink>
-          </li>
-          <li class="col-middle" style="text-align: center">
             <NuxtLink to="/access">
               ACCESS
             </NuxtLink>
@@ -44,9 +39,6 @@
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/aboutus">ABOUT US</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/access">ACCESS</NuxtLink>
