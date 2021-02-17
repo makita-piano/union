@@ -10,24 +10,32 @@
           <div class="grid col-6_sm-12">
             <img src="~assets/room.png" width="100%" alt="top">
           </div>
-          <div class="grid col-6_sm-12">
-            <div class="col-12">
+          <div class="col-6_sm-12">
+            <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">type A</h3>
             </div>
             <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
-            <div class="grid col-12" style="padding: 0 2rem">
-              <div class="col-4" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
-                受入人数
-              </div>
-              <div class="col-8" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
-                2人
-              </div>
-              <div class="col-4" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
-                料金
-              </div>
-              <div class="col-8" style="border: 1px solid #333;padding: .3rem;border-collapse: collapse;">
-                2,500円
-              </div>
+            <div style="padding: 0 2rem">
+              <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+                <tbody>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      受入人数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      2人
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      料金
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      2,500円
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

@@ -10,14 +10,14 @@
     </div>
     <div class="col-12">
       <div class="top-txt">
-        <h2>多様性・好奇心・創造力。<br>福島のエネルギーから生み出される文化体験</h2>
+        <h2 class="font-size-1-mobile">多様性・好奇心・創造力。<br>福島のエネルギーから生み出される文化体験</h2>
         <div class="top-txt-sub">DIVERSITY | CURIOSITY | CREATIVITY</div>
         <p class="c-txt">多様性・好奇心・創造力に溢れた街、福島で体験の核となるのは「音楽とアートと食」。<br class="u-hideSP">クオリティの高い音響設備を活かした客室内外の体験、気鋭の現代アートによって彩られる洗練された空間、<br class="u-hideSP">そして日本の旬の食材を味わうことのできるレストラン等を通じてお客様のスタイルに合わせた寛ぎを生み出します。 <br class="u-hideSP">街の文化と感性に触れる、客室に留まらないホテルの愉しみ方をご提案してまいります。</p>
       </div>
     </div>
     <div class="grid-center col-12" style="margin-top: 5rem;background: #eee">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">ROOMS</h2>
+        <h2 style="text-align: center;margin-top: 2rem">ROOMS</h2>
         <div style="text-align: center">客室</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -31,7 +31,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">RESTAURANT</h2>
+        <h2 style="text-align: center;margin-top: 2rem">RESTAURANT</h2>
         <div style="text-align: center">レストラン</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -82,13 +82,16 @@
 
 <script>
 export default {
+  beforeRouteEnter (to, from, next) {
+    next()
+  },
   mounted() {
     console.log(process.env.KEY)
   }
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -164,19 +167,11 @@ export default {
 
 .top-txt p {
   color: #53565a;
-  font-size: 12px;
-  letter-spacing: .1em;
   line-height: 2.3;
   text-align: center;
 }
 
-.ttl-h2 {
-  font-size: 34px;
-  color: #1e1f21;
-  text-transform: uppercase;
-  font-family: TTNorms-Medium,sans-serif;
-  letter-spacing: .05em;
-}
+
 .top-list ul {
   border-top: 1px solid #ccc;
 }
@@ -205,6 +200,9 @@ export default {
   .header-img {
     height: 300px;
   }
+  .font-size-1-mobile {
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 769px) {
   .header-img {
@@ -224,7 +222,6 @@ export default {
     letter-spacing: .24em;
   }
   .top-txt p {
-    font-size: 14px;
     line-height: 3;
   }
   .top-list-date {

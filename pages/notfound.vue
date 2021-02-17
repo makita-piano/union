@@ -22,6 +22,8 @@
 </template>
 <script>
 export default {
+  layout: "notfound",
+
   data () {
     return {
       img: false,
@@ -34,10 +36,6 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
-
 <style scoped>
 .notfound {
   height: 100vh;
@@ -46,9 +44,9 @@ export default {
 }
 .main-img {
   background-image: url("~@/assets/union.png");
-  background-repeat: no-repeat;   
+  background-repeat: no-repeat;
   background-size: 100%;
-  background-position: right center; 
+  background-position: right center;
   max-width: 500px;
 }
 .fade-enter-active,

@@ -17,7 +17,9 @@ export default {
     ],
     link: [
       { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css" },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', type: 'image/x-icon', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', type: 'image/x-icon', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Yusei+Magic&display=swap' }
     ]
   },
 
@@ -34,7 +36,16 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      'Noto+Sans+JP': true,
+      'Yusei Magic': true,
+    },
+    display: 'swap'
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -42,7 +53,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/google-gtag'
   ],
-      
+
   'google-gtag': {
     id: 'G-LJQ1CYKTLQ',
   },

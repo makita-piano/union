@@ -2,7 +2,7 @@
   <div class="grid col-12">
     <div class="col-12 header-img-div">
       <img class="header-img" src="~assets/room.png" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top">
-      <h1 class="header-img-h1">RESTAURANT</h1>	
+      <h1 class="header-img-h1">RESTAURANT</h1>
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">

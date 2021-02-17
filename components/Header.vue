@@ -1,6 +1,6 @@
 <template>
-  <header style="background-color: #000">
-    <div class="grid display-none-mobile">
+  <header>
+    <div class="grid display-none-mobile header-menu-pc">
       <div class="col-4">
         <NuxtLink to="/">
           <img src="~assets/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union">
@@ -8,22 +8,22 @@
       </div>
       <div class="grid col-8">
         <ul class="grid col-12">
-          <li class="col-middle" style="text-align: center">
-            <NuxtLink to="/room">
-              ROOM
+          <li class="col-middle">
+            <NuxtLink to="/rooms">
+              ROOMS
             </NuxtLink>
           </li>
-          <li class="col-middle" style="text-align: center">
+          <li class="col-middle">
             <NuxtLink to="/restaurant">
               RESTAURANT
             </NuxtLink>
           </li>
-          <li class="col-middle" style="text-align: center">
+          <li class="col-middle">
             <NuxtLink to="/access">
               ACCESS
             </NuxtLink>
           </li>
-          <li class="col-middle" style="text-align: center">
+          <li class="col-middle">
             <NuxtLink to="/contact">
               CONTACT
             </NuxtLink>
@@ -35,7 +35,7 @@
       <transition name="trans_slide">
         <ul class="menu" v-if="isMenuShow">
           <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/room">ROOM</NuxtLink>
+            <NuxtLink to="/rooms">ROOMS</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
@@ -69,13 +69,13 @@
 <script>
   export default {
     name: 'g-header',
-    
+
     data() {
       return {
         isMenuShow: false
       }
     },
-    
+
     methods: {
       menuShow: function() {
         this.isMenuShow = !this.isMenuShow;
@@ -93,7 +93,7 @@
   }
 </script>
 
-<style>
+<style scoped>
 .trans_slide-enter-active, .trans_slide-leave-active {
     transition: opacity .5s;
 }
@@ -101,9 +101,19 @@
     opacity: 0;
 }
 
+header {
+  background-color: #000;
+  position: relative;
+  z-index: 999;
+}
 header a{
   text-decoration: none;
-  color: #939597;
+  color: white;
+  font-size: .8rem;
+}
+
+.header-menu-pc li {
+  text-align: center;
 }
 .menu{
     padding-bottom: .5rem;
@@ -120,7 +130,7 @@ header a{
     font-size: 1.3rem;
 }
 .menu > div > a > div:nth-child(2){
-    color: #999;
+    color: white;
     font-size: .8rem;
 }
 .menu > li{
@@ -132,7 +142,7 @@ header a{
     font-size: 1.3rem;
 }
 .menu > li > a > div:nth-child(2){
-    color: #999;
+    color: white;
     font-size: .8rem;
 }
 .menu-trigger {
@@ -154,14 +164,14 @@ header a{
     position: absolute;
     left: 14px;
     width: 36px;
-    height: 4px;
-    background-color: #939597;
+    height: 1px;
+    background-color: white;
     transition: all .5s;
     z-index: 10;
 }
 
 .menu-trigger.active span {
-    background-color: #939597;
+    background-color: white;
 }
 
 .menu-trigger span:nth-of-type(1) {
@@ -184,7 +194,7 @@ header a{
 }
 
 .menu-trigger span:nth-of-type(4) {
-    color: #939597;
+    color: white;
     left: 16px;
     top: 34px;
     font-size: .8rem;
@@ -214,7 +224,7 @@ header a{
 }
 .menu-container .menu .menu-item a {
     border-right: 1px solid #ccc;
-    color: #939597;
+    color: white;
     display: block;
     padding: 1rem 0;
     text-align: center;
@@ -239,8 +249,5 @@ header a{
     .menu-container .menu .menu-item:last-child a {
         border-bottom: none;
     }
-}
-
-@media screen and (min-width: 769px) {
 }
 </style>
