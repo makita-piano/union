@@ -1,9 +1,6 @@
 <template>
   <div class="page-contents">
     <transition name="opening">
-      <opening v-if="!this.$store.state.opening" class="opening" />
-    </transition>
-    <transition name="opening2">
       <div v-if="this.$store.state.opening">
         <g-header />
         <div>
@@ -139,30 +136,14 @@ h2 {
   }
 }
 
-.opening-leave-active {
-  animation: fadeIns 2s ease-out 1s;
+.opening-enter-active {
+  animation: fadeIns 2s ease-out;
   }
   @keyframes fadeIns {
   from {
-    transform: translateY(0);
-    opacity: 1;
+    opacity: .3;
   }
   to {
-    transform: translateY(-100vh);
-    opacity: 0.5;
-  }
-}
-
-.opening2-enter-active {
-  animation: fadeInss 2s ease-out 1s;
-  }
-  @keyframes fadeInss {
-  from {
-    transform: translateY(0);
-    opacity: 0.5;
-  }
-  to {
-    transform: translateY(-100vh);
     opacity: 1;
   }
 }
