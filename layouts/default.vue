@@ -140,7 +140,7 @@ h2 {
 }
 
 .opening-leave-active {
-  animation: fadeIns 2s ease-out;
+  animation: fadeIns 2s ease-out 1s;
   }
   @keyframes fadeIns {
   from {
@@ -154,7 +154,7 @@ h2 {
 }
 
 .opening2-enter-active {
-  animation: fadeInss 2s ease-out;
+  animation: fadeInss 2s ease-out 1s;
   }
   @keyframes fadeInss {
   from {
