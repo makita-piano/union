@@ -1,8 +1,8 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <img class="header-img" src="~assets/room.png" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top">
-      <h1 class="header-img-h1">ACCESS</h1>	
+      <img class="header-img" src="~assets/room.png" width="100%" style="object-fit: cover" alt="top">
+      <h1 class="header-img-h1">ACCESS</h1>
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="col-12" style="max-width: 1024px">
@@ -10,9 +10,17 @@
       </div>
       <div class="grid-center col-12">
         <div class="col-12" style="max-width: 1024px;padding: .5rem">
+          <h3>住所</h3>
+          <span>
           TEL：024-572-5838<br>
           〒960-8041 福島県福島市大町1－12　長谷川第2ビル<br>
+          </span>
           <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank">Google Map</a>
+
+          <h3 style="margin-top: 2rem">駐車場</h3>
+          <span>
+          駐車場はございません。近隣のコインパーキング（提携外）をご案内させて頂いております。
+          </span>
         </div>
       </div>
     </div>
@@ -20,15 +28,20 @@
 </template>
 
 <style scoped>
-  @media screen and (max-width: 768px) {
-    .map-iframe {
-      height: 375px;
-    }
+h3 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+@media screen and (max-width: 768px) {
+  .map-iframe {
+    height: 375px;
   }
+}
 
-  @media screen and (min-width: 769px) {
-    .map-iframe {
-      height: 520px;
-    }
+@media screen and (min-width: 769px) {
+  .map-iframe {
+    height: 520px;
   }
+}
 </style>

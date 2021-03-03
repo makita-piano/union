@@ -1,18 +1,19 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  components: true,
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'La Unión 福島 | ラウニオン',
+    title: 'La Union 福島（ラウニオン） | 福島市・ゲストハウス・ホステル・カフェ・シェア',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '『ユニオン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付く温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'La Unión 福島 | ラウニオン' },
+      { hid: 'description', name: 'description', content: '福島市のゲストハウス＆カフェ「La Union 福島（ラウニオン」です。一泊2,800円から！「集い」を意味する当施設は、この福島という地に集まった旅人と地域を繋ぐ拠点として、カフェとゲストハウスを併設しています！' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'La Union 福島（ラウニオン）' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:title', property: 'og:title', content: 'La Unión 福島 | ラウニオン' },
-      { hid: 'og:description', property: 'og:description', content: '『ユニオン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付く温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。' },
+      { hid: 'og:title', property: 'og:title', content: 'La Union 福島（ラウニオン）' },
+      { hid: 'og:description', property: 'og:description', content: '福島市のゲストハウス＆カフェ「La Union 福島（ラウニオン」です。一泊2,800円から！「集い」を意味する当施設は、この福島という地に集まった旅人と地域を繋ぐ拠点として、カフェとゲストハウスを併設しています！' },
       { hid: 'og:image', property: 'og:image', content: '/union.png' }
     ],
     link: [
@@ -40,7 +41,7 @@ export default {
   googleFonts: {
     families: {
       'Noto+Sans+JP': true,
-      'Yusei Magic': true,
+      'Sofia': true,
     },
     display: 'swap'
   },
@@ -65,11 +66,11 @@ export default {
   },
   router: {
     extendRoutes (routes, resolve) {
-    routes.push({
-      name: '404error',
-      path: '*',
-      component: resolve('~/pages/notfound.vue')
-     })
-   }
+      routes.push({
+        name: '404error',
+        path: '*',
+        component: resolve('~/pages/notfound.vue')
+      })
+    }
  },
 }

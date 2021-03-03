@@ -13,10 +13,10 @@
         v-text="t"
         />
     </div>
-    <div v-if="img" class="facebook">
-      <a href="https://www.facebook.com/launifuku/" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" class="svg replaced-svg"><g transform="translate(0 0)"><path d="M-2505-5135a13.906,13.906,0,0,1-9.9-4.1,13.908,13.908,0,0,1-4.1-9.9,13.91,13.91,0,0,1,4.1-9.9,13.907,13.907,0,0,1,9.9-4.1,13.909,13.909,0,0,1,9.9,4.1,13.908,13.908,0,0,1,4.1,9.9,13.906,13.906,0,0,1-4.1,9.9A13.908,13.908,0,0,1-2505-5135Zm-2.073-14.026v8.433h3.178v-8.433h2.6l.5-3.146h-3.106v-.969a1.037,1.037,0,0,1,1-1.115h2.174v-3.212h-2.557v.012a3.859,3.859,0,0,0-3.034,1.195,3.961,3.961,0,0,0-.754,2.485h-.006v1.6h-2.109v3.146Z" transform="translate(2519 5163)" fill="#444"></path></g></svg>
-      </a>
+    <div class="col-12 return_link">
+      <NuxtLink to="/" class="button">
+        <span>トップに戻る</span>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -37,6 +37,20 @@ export default {
 </script>
 
 <style scoped>
+.button {
+  display: block;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: .6rem;
+  color: #939597;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: .5s;
+  margin: auto;
+  border: 1px solid #939597;
+}
 .notfound {
   height: 100vh;
   background-color: black;
@@ -81,6 +95,13 @@ export default {
   position: absolute;
   top: calc(50% + 12rem);
   animation: img-fadein 3s ease-out;
+}
+
+.return_link {
+  position: absolute;
+  top: calc(50% + 15rem);
+  animation: img-fadein 3s ease-out;
+  color: #939597;
 }
 @keyframes text-in {
   0% {

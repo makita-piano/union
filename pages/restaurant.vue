@@ -11,10 +11,10 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
+          <img src="~assets/room.png" width="100%" alt="top">
         </div>
         <div class="grid col-6_sm-12">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
             <div class="col-12">
               <h3>ランチ</h3>
             </div>
-            10:00 ~ 14:00 (LO 13:30)
+            07:30 ~ 15:00 (LO 14:30)
           </div>
         </div>
         <div class="grid col-6_sm-12">
@@ -53,6 +53,32 @@
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
+        </div>
+      </div>
+      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
+        </div>
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
+        </div>
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
+        </div>
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
+        </div>
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
+        </div>
+        <div class="col-3_sm-6" style="padding: .5rem">
+          <img src="~assets/room.png" width="100%" alt="top">
+          開発中
         </div>
       </div>
     </div>

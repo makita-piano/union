@@ -19,6 +19,11 @@
             </NuxtLink>
           </li>
           <li class="col-middle">
+            <NuxtLink to="/unicoin">
+              UNICOIN
+            </NuxtLink>
+          </li>
+          <li class="col-middle">
             <NuxtLink to="/access">
               ACCESS
             </NuxtLink>
@@ -39,6 +44,9 @@
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
+          </li>
+          <li class="menu-item" v-on:click="menuShow">
+            <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
           </li>
           <li class="menu-item" v-on:click="menuShow">
             <NuxtLink to="/access">ACCESS</NuxtLink>
@@ -155,7 +163,7 @@ header a{
     z-index: 999;
     border-radius: 32px;
     position: absolute;
-    margin: 2.5% 0 0 auto;
+    margin: .7rem 0 0 auto;
     top: 0;
 }
 .menu-trigger span {

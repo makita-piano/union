@@ -12,7 +12,7 @@
           </div>
           <div class="col-6_sm-12">
             <div>
-              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">type A</h3>
+              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">個室(ダブルベッド)</h3>
             </div>
             <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
             <div style="padding: 0 2rem">
@@ -20,10 +20,18 @@
                 <tbody>
                   <tr>
                     <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      部屋数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      2室
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                       受入人数
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      2人
+                      1~2人
                     </td>
                   </tr>
                   <tr>
@@ -31,7 +39,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      2,500円
+                      5,500円
                     </td>
                   </tr>
                 </tbody>
@@ -46,11 +54,85 @@
           <div class="grid col-6_sm-12">
             <img src="~assets/room.png" width="100%" alt="top">
           </div>
-          <div class="grid col-6_sm-12">
-            <div class="col-12">
-              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">type B</h3>
+          <div class="col-6_sm-12">
+            <div>
+              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">個室(ツインベッド)</h3>
             </div>
             <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+            <div style="padding: 0 2rem">
+              <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+                <tbody>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      部屋数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      2室
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      受入人数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      1人
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      料金
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      5,500円
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
+        <div class="grid col-12" style="background: #eee;padding: 1rem">
+          <div class="grid col-6_sm-12">
+            <img src="~assets/room.png" width="100%" alt="top">
+          </div>
+          <div class="col-6_sm-12">
+            <div>
+              <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">ドミトリー</h3>
+            </div>
+            <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+            <div style="padding: 0 2rem">
+              <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+                <tbody>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      部屋数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      1室
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      受入人数
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      1~8人
+                    </td>
+                  </tr>
+                  <tr>
+                    <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      料金
+                    </th>
+                    <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                      2,800円
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -96,26 +178,11 @@ export default {
 </script>
 
 <style>
-.header-img-div {
-  position: relative;
-}
 
-.header-img-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  color: white;
-  letter-spacing: .3rem;
-}
 
 
 @media screen and (max-width: 768px) {
-  .header-img {
-    height: 300px;
-  }
+
 
   .font-size-1-8-mobile {
     font-size: 1.8rem;
@@ -123,9 +190,7 @@ export default {
 }
 
 @media screen and (min-width: 769px) {
-  .header-img {
-    height: 450px;
-  }
+
 }
 
 </style>
