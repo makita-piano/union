@@ -1,77 +1,81 @@
 <template>
-  <header>
-    <div class="grid display-none-mobile header-menu-pc">
-      <div class="col-4">
-        <NuxtLink to="/">
-          <img src="~assets/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union">
-        </NuxtLink>
-      </div>
-      <div class="grid col-8">
-        <ul class="grid col-12">
-          <li class="col-middle">
-            <NuxtLink to="/rooms">
-              ROOMS
-            </NuxtLink>
-          </li>
-          <li class="col-middle">
-            <NuxtLink to="/restaurant">
-              RESTAURANT
-            </NuxtLink>
-          </li>
-          <li class="col-middle">
-            <NuxtLink to="/unicoin">
-              UNICOIN
-            </NuxtLink>
-          </li>
-          <li class="col-middle">
-            <NuxtLink to="/access">
-              ACCESS
-            </NuxtLink>
-          </li>
-          <li class="col-middle">
-            <NuxtLink to="/contact">
-              CONTACT
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <nav class="grid menu-container display-none-pc">
-      <transition name="trans_slide">
-        <ul class="menu" v-if="isMenuShow">
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/rooms">ROOMS</NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/access">ACCESS</NuxtLink>
-          </li>
-          <li class="menu-item" v-on:click="menuShow">
-            <NuxtLink to="/contact">CONTACT</NuxtLink>
-          </li>
-        </ul>
-      </transition>
-      <div class="col" style="text-align: center">
-        <NuxtLink to="/" id="home" style="z-index: 9999">
-          <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
-        </NuxtLink>
-      </div>
-      <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
-        <div>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="menu-text">{{menuText}}</span>
+  <div>
+    <header style="">
+      <div class="grid display-none-mobile header-menu-pc">
+        <div class="col-4">
+          <NuxtLink to="/">
+            <img src="~assets/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union">
+          </NuxtLink>
+        </div>
+        <div class="grid col-8">
+          <ul class="grid col-12">
+            <li class="col-middle">
+              <NuxtLink to="/rooms">
+                ROOMS
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/restaurant">
+                RESTAURANT
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/unicoin">
+                UNICOIN
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/access">
+                ACCESS
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/contact">
+                CONTACT
+              </NuxtLink>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
-    <div v-if="isMenuShow" style="padding: 70px"></div>
-  </header>
+      <nav class="grid menu-container display-none-pc">
+        <transition name="trans_slide">
+          <ul class="menu" v-if="isMenuShow">
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/rooms">ROOMS</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/access">ACCESS</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/contact">CONTACT</NuxtLink>
+            </li>
+          </ul>
+        </transition>
+        <div class="col" style="text-align: center">
+          <NuxtLink to="/" id="home" style="z-index: 9999">
+            <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
+          </NuxtLink>
+        </div>
+        <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="menu-text">{{menuText}}</span>
+          </div>
+        </div>
+      </nav>
+      <div v-if="isMenuShow" style="padding: 70px"></div>
+    </header>
+    <div class="header-space display-none-pc">
+    </div>
+  </div>
 </template>
 
 <script>
@@ -102,6 +106,9 @@
 </script>
 
 <style scoped>
+.header-space {
+  margin-top: 5rem;
+}
 .trans_slide-enter-active, .trans_slide-leave-active {
     transition: opacity .5s;
 }
@@ -256,6 +263,11 @@ header a{
     }
     .menu-container .menu .menu-item:last-child a {
         border-bottom: none;
+    }
+    header {
+      width: 100vw;
+      position: fixed;
+      top: 0;
     }
 }
 </style>

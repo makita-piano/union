@@ -15,7 +15,11 @@
           TEL：024-572-5838<br>
           〒960-8041 福島県福島市大町1－12　長谷川第2ビル<br>
           </span>
-          <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank">Google Map</a>
+          <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank" style="margin-bottom: .5rem">Google Map</a>
+
+          <div class="col-12" style="max-width: 1024px;margin-top: .5rem">
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!4v1615541317644!6m8!1m7!1sMMruKOz8ELlaOIbW42E1Sw!2m2!1d37.75485069909205!2d140.4660539402539!3f307.17032539471097!4f12.996080817972327!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+          </div>
 
           <h3 style="margin-top: 2rem">駐車場</h3>
           <span>

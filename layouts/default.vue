@@ -1,16 +1,12 @@
 <template>
   <div class="page-contents">
-    <transition name="opening">
-      <div v-if="this.$store.state.opening">
-        <Header />
-        <div>
-          <transition name="router-transition">
-            <Nuxt />
-          </transition>
-        </div>
-        <Footer />
-      </div>
-    </transition>
+    <Header />
+    <div>
+      <transition name="router-transition">
+        <Nuxt />
+      </transition>
+    </div>
+    <Footer />
   </div>
 </template>
 
@@ -21,9 +17,6 @@
       currentPageForCanonical() {
         return this.$route.path.slice(1)
       }
-    },
-    mounted() {
-     this.$store.state.opening = true;
     },
     head() {
       return {
