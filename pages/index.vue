@@ -10,8 +10,6 @@
     </div>
     <div class="col-12">
       <div class="top-txt">
-        <!--<h2 class="font-size-1-mobile">多様性・好奇心・創造力。<br>福島のエネルギーから生み出される文化体験</h2>
-        <div class="top-txt-sub">DIVERSITY | CURIOSITY | CREATIVITY</div>-->
         <p class="c-txt">ラウニオンは最大8名まで泊まれるシェアルームなら、一人2,800円～泊まれます！！<br>
 「集い」を意味する店名の当施設は、この福島という地に集まった旅人と地域を繋ぐ拠点として、カフェとゲストハウスを併設しています。<br>
 「La Union」は、福島の街の入り口として、街と繋がりながら気軽に滞在できるゲストハウス／ホステルとして作りました。なんでも揃っているわけではないけれど、「La Union」から一歩街に出れば見つけられる。街と旅の思い出を繋ぐ拠点となれるような場所になるようにと、たくさんの想いを詰め込んで出来た皆さんの家です。<br>
@@ -222,18 +220,35 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+
 .top-box{
-  background-color: #01569b;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 175px;
-  margin-bottom: 40px;
   color: #fff;
   font-size: 14px;
   letter-spacing: 3.9px;
   line-height: 2.8;
   text-align: center;
+  position: relative;
+  padding-bottom: .5rem;
+}
+
+.top-box::after{
+  content: '';
+  position: absolute;
+  left:0;
+  top: 0;
+ 
+  transform: skewY(2deg);
+  transform-origin: top right;
+ 
+  z-index: -1;
+  width:100%;
+  height:100%;
+  background:#01569b;
 }
 .top-txt {
   padding: 1rem;
