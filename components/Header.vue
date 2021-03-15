@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header style="">
+    <header>
       <div class="grid display-none-mobile header-menu-pc">
         <div class="col-4">
           <NuxtLink to="/">
@@ -38,6 +38,11 @@
         </div>
       </div>
       <nav class="grid menu-container display-none-pc">
+        <div class="col" style="text-align: center">
+          <NuxtLink to="/" id="home" style="z-index: 9999">
+            <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
+          </NuxtLink>
+        </div>
         <transition name="trans_slide">
           <ul class="menu" v-if="isMenuShow">
             <li class="menu-item" v-on:click="menuShow">
@@ -57,11 +62,6 @@
             </li>
           </ul>
         </transition>
-        <div class="col" style="text-align: center">
-          <NuxtLink to="/" id="home" style="z-index: 9999">
-            <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
-          </NuxtLink>
-        </div>
         <div class="menu-trigger" v-on:click="menuShow" v-bind:class='{active: isMenuShow}'>
           <div>
             <span></span>
@@ -71,7 +71,6 @@
           </div>
         </div>
       </nav>
-      <div v-if="isMenuShow" style="padding: 70px"></div>
     </header>
     <div class="header-space display-none-pc">
     </div>
@@ -109,10 +108,10 @@
 .header-space {
   margin-top: 5rem;
 }
-.trans_slide-enter-active, .trans_slide-leave-active {
+.trans_slide-enter-active {
     transition: opacity .5s;
 }
-.trans_slide-enter, .trans_slide-leave-to {
+.trans_slide-enter {
     opacity: 0;
 }
 
@@ -133,7 +132,6 @@ header a{
 .menu{
     padding-bottom: .5rem;
     z-index: 999;
-    position: fixed;
     display: block;
 }
 .menu > div{
@@ -241,9 +239,10 @@ header a{
     border-right: 1px solid #ccc;
     color: white;
     display: block;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     text-align: center;
     text-decoration: none;
+    letter-spacing: .2rem;
 }
 .menu-container .menu .menu-item:last-child a {
     border-right: none;

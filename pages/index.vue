@@ -96,6 +96,9 @@
               <div class="social-name">@launifuku</div>
             </div>
           </a>
+          <p class="follow_me" data-heading="Follow Me！">
+            Follow Me！
+          </p>
         </div>
       </div>
     </div>
@@ -114,6 +117,38 @@ export default {
 </script>
 
 <style scoped>
+
+.follow_me {
+  text-align: center;
+  top: 50%;
+  left: 60%;
+  transform: translate(-10%, -50%) skewY(-3deg);
+  position: absolute;
+  font-size: .8rem;
+  letter-spacing: .3rem;
+}
+.follow_me::before {
+  content: attr(data-heading);
+  color: yellow;
+  width: 100%;
+  z-index: 5;
+  text-shadow: none;
+  text-align: left;
+  animation: flicker 3s linear infinite;
+  position: absolute;
+  overflow: hidden;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: .99;
+    text-shadow: -1px -1px 0 rgba(#fff, .4), 1px -1px 0 rgba(#fff, .4), -1px 1px 0 rgba(#fff, .4), 1px 1px 0 rgba(#fff, .4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
 .social {
   text-decoration: none;
 }
@@ -140,6 +175,7 @@ export default {
   margin: auto;
   background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  position: relative;
 }
 .insta:before{
   background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
@@ -275,7 +311,6 @@ export default {
 .top-txt p {
   color: #53565a;
   line-height: 2.3;
-  text-align: center;
 }
 
 
@@ -320,6 +355,9 @@ export default {
   }
 }
 @media screen and (min-width: 769px) {
+  .top-txt p {
+    text-align: center;
+  }
   .c-txt{
     width: 768px;
     margin: auto;
