@@ -1,14 +1,14 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <img class="header-img" src="~assets/room.png" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top">
+      <nuxt-img class="header-img" src="/room1.jpg" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top" />
       <h1 class="header-img-h1">ROOMS</h1>
     </div>
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <img src="~assets/room.png" width="100%" alt="top">
+            <nuxt-img src="/room1.jpg" width="100%" alt="top" style="object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -52,7 +52,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <img src="~assets/room.png" width="100%" alt="top">
+            <nuxt-img src="/room2.jpg" width="100%" alt="top" style="object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -96,7 +96,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <img src="~assets/room.png" width="100%" alt="top">
+            <nuxt-img src="/room3.jpg" width="100%" alt="top" style="object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>

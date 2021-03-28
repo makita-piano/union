@@ -1,7 +1,7 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <img class="header-img" src="~assets/top.png" width="100%" style="margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy">
+      <nuxt-img class="header-img" src="/top.jpg" width="1024px" style="width: 100%;margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
     </div>
     <div class="col-12" style="padding: 3rem">
       <div class="top-box">
@@ -22,8 +22,8 @@
         <div style="text-align: center">客室</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
-          <img src="~assets/room.png" class="room-img" width="100%" alt="top" loading="lazy">
+        <div class="grid col-6_sm-12 cover-img">
+          <nuxt-img src="/room1.jpg" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
@@ -41,8 +41,8 @@
         <div style="text-align: center">レストラン</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
-          <img src="~assets/room.png" class="restaurant-img" width="100%" alt="top" loading="lazy">
+        <div class="grid col-6_sm-12 cover-img">
+          <nuxt-img src="/restaurant1.jpg" class="" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
@@ -350,12 +350,22 @@ export default {
   padding: 16px 0 20px;
 }
 
-.room-img {
-  filter: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="waves" x="-5%" y="-5%" width="110%" height="110%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB"><feTurbulence type="turbulence" baseFrequency="0.01 0.01" numOctaves="1" seed="1" stitchTiles="noStitch" result="turbulence" /><feDisplacementMap in="SourceGraphic" in2="turbulence" scale="10" xChannelSelector="G" yChannelSelector="A" result="displacementMap" /></filter></svg>#waves');
+.cover-img {
+	display: inline-block;
+	position: relative;
 }
-
-.restaurant-img {
-  filter: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="waves" x="-5%" y="-5%" width="110%" height="110%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB"><feTurbulence type="turbulence" baseFrequency="0.01 0.01" numOctaves="1" seed="2" stitchTiles="noStitch" result="turbulence" /><feDisplacementMap in="SourceGraphic" in2="turbulence" scale="10" xChannelSelector="G" yChannelSelector="A" result="displacementMap" /></filter></svg>#waves');
+.cover-img:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	transform: rotate(3deg); /* 回転させる */
+	background: #fff;
+	z-index: -1;
 }
 
 @media screen and (max-width: 768px) {
@@ -367,9 +377,6 @@ export default {
   }
 }
 @media screen and (min-width: 769px) {
-  .top-txt p {
-    text-align: center;
-  }
   .c-txt {
     margin: auto;
     width: 768px;

@@ -1,7 +1,7 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <img class="header-img" src="~assets/room.png" width="100%" style="object-fit: cover" alt="top">
+      <nuxt-img class="header-img" src="/top.jpg" width="100%" style="object-fit: cover" alt="top" />
       <h1 class="header-img-h1">ACCESS</h1>
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
