@@ -1,39 +1,42 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" src="/top.jpg" width="100%" style="margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
+      <nuxt-img class="header-img" src="/top.jpg" width="100%" style="object-fit: cover" alt="top" loading="lazy" />
     </div>
-    <div class="grid-center col-12">
+    <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">ABOUT</h2>
         <div style="text-align: center">ユニコインとは</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
-          <img src="~assets/room.png" class="room-img" width="100%" alt="top" loading="lazy">
+        <div class="col-12" style="text-align: center">
+          <nuxt-img src="/unicoin.jpg" class="room-img" alt="unicoin" loading="lazy" />
         </div>
-        <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+        <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px">
+          <div class="col-12" style="text-align: center;padding: 1rem">【まちで使えるWELCOMEコイン】</div>
+          <p style="padding: 1rem 2rem">
+La Unionでは宿泊される方にウェルカムドリンクとして使えるウニコインを差し上げます。
+ウニコインは自店の飲食フロアで使えるだけでなく、近隣の人気飲食店でもご利用いただけます。
+ウニコインが旅行者にとって福島の接点となるように、地元の人にとっては今まで気になっていたけど行ったことがなかったお店に行くきっかけになるように、近隣飲食店にとってはドリンクと一緒に食事も頼んでもらえることで売上に貢献できるようにしていきます。
+ウニコインに有効期限はなく、今回の滞在で使用できなかった場合は次回お使いいただくことも可能で、２枚で当店の朝食と引き換えることができるようにするなどポイントカードのような機能も持たせています。
+コインのデザインは、かつて福島盆地が水に埋もれた湖で、信夫山がぽっこりと浮かぶ島だった頃、吾妻おろしの風が水を吹き飛ばし、今の福島が生まれた、風が「吹く島」に基づく、福島の原風景をイメージして作りました。</p>
         </div>
       </div>
     </div>
-    <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
-      <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">HOW TO USE</h2>
-        <div style="text-align: center">使い方</div>
+    <div class="grid-center col-12">
+      <div class="col-12">
+        <h2 class="background-unicoin" style="text-align: center;padding: 3rem 0">HOW TO USE</h2>
       </div>
-      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
-          <img src="~assets/room.png" class="room-img" width="100%" alt="top" loading="lazy">
-        </div>
-        <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+      <div class="grid col-12" style="margin: auto;max-width: 768px;padding: 0 1rem 2rem;">
+        <div class="col-12_sm-12">
+          <p style="padding: 1rem 2rem">ラユニオンでお渡ししたコインを、下記対象店舗でご注文時にご提示ください。コインと引き換えにウェルカムドリンクを一杯サービスいたします。
+          </p>
           <div class="col-12">
           </div>
         </div>
       </div>
     </div>
-    <div class="grid-center col-12" style="margin-bottom: 3rem">
+    <div class="grid-center col-12" style="padding-bottom: 3rem;background: rgb(238, 238, 238 , 0.5)">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">STORES</h2>
         <div style="text-align: center">対象店舗</div>
@@ -69,14 +72,25 @@ export default {
   transition: .5s;
   width: 80%;
 }
+
+.background-unicoin {
+  background-image: url("/unicoin_background.jpg");
+  background-color:rgba(255,255,255,0.9);
+  background-blend-mode:lighten;
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  background-size: 300px auto;
+}
 h3 {
   color: #333;
   font-weight: bold;
   margin-bottom: .3rem;
+
 }
 .map-iframe {
   height: 375px;
 }
+
 
 @media screen and (min-width: 769px) {
   .map-iframe {

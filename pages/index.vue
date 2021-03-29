@@ -3,9 +3,9 @@
     <div class="col-12">
       <nuxt-img class="header-img" src="/top.jpg" width="1024px" style="width: 100%;margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
     </div>
-    <div class="col-12" style="padding: 3rem">
+    <div class="col-12" style="padding: 1rem">
       <div class="top-box">
-        その地域と深くつながること。<br>そこから生まれる素敵な経験を<br>ラウニオンは大切にします。
+        旅行者と地元の方との接点。<br>福島がもつ素敵な体験のヒトトキを<br>ラユニオンから始めませんか。
       </div>
     </div>
     <div class="col-12">
@@ -26,7 +26,7 @@
           <nuxt-img src="/room1.jpg" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+          <p style="padding: 2rem">ドミトリー、プライベートルームから、お客様の旅のスタイルに合わせてお選び頂けます。シャワー、トイレは共同でのご利用となり、24時間利用可能です。</p>
           <div class="col-12">
             <NuxtLink to="/rooms" class="button">
               <span>詳しくみる</span>
@@ -45,7 +45,7 @@
           <nuxt-img src="/restaurant1.jpg" class="" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。</p>
+          <p style="padding: 2rem">朝7:30からブレックファーストをご利用頂けます。</p>
           <div class="col-12">
             <NuxtLink to="/restaurant" class="button">
               <span>詳しくみる</span>
@@ -84,7 +84,7 @@
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
         <div style="text-align: center">お知らせ</div>
         <div style="margin: 1.5rem 0 2rem 0;text-align: center">
-          <iframe loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          <iframe loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="insta">
           <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
@@ -175,7 +175,8 @@ export default {
   height: 4rem;
   margin: auto;
   position: relative;
-  width: 340px;
+  max-width: 340px;
+  width: 90%;
 }
 .insta:before {
   background: -webkit-linear-gradient(15deg, #FFDB2C, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
@@ -262,42 +263,16 @@ export default {
   color: #FFF;
   display: flex;
   font-size: 14px;
-  height: 250px;
+  height: 200px;
   justify-content: center;
   letter-spacing: 3.9px;
   line-height: 2.8;
-  padding-bottom: 1.5rem;
   position: relative;
   text-align: center;
-}
-
-.top-box::before {
+  border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
   background: #01569B;
-  border-top-left-radius: 10rem;
-  border-top-right-radius: 10rem;
-  border-bottom-left-radius: 2000px 300px;
-  border-bottom-right-radius: 2000px 300px;
-  content: '';
-  height: 90%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
 }
 
-.top-box::after {
-  background: white;
-  border-bottom-left-radius: 2000px 200px;
-  border-bottom-right-radius: 2000px 200px;
-  content: '';
-  height: 1rem;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
 .top-txt {
   padding: 1rem;
 }
@@ -386,11 +361,11 @@ export default {
   }
   .top-box {
     font-size: 17px;
-    height: 300px;
     letter-spacing: .5em;
     line-height: 2.35;
     margin: 0 auto 55px;
-    width: 768px;
+    width: 600px;
+    height: 250px;
   }
   .top-txt h2 {
     font-size: 20px;

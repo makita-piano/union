@@ -102,7 +102,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">ドミトリー</h3>
             </div>
-            <p style="padding: 2rem">ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。</p>
+            <p style="padding: 2rem">必要最低限の電源やスマホのワイヤレス充電をご利用いただけます。</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
@@ -144,27 +144,27 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
           シャワー
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
           トイレ
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
           エアコン
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
-          テレビ
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          コンセント
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
           無料wi-fi
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <img src="~assets/room.png" width="100%" alt="top">
+          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
           加湿空気清浄機
         </div>
       </div>
