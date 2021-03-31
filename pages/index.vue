@@ -37,17 +37,17 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">RESTAURANT</h2>
-        <div style="text-align: center">レストラン</div>
+        <h2 style="text-align: center;margin-top: 2rem">CAFE</h2>
+        <div style="text-align: center">カフェ</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img src="/restaurant1.jpg" class="" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img src="/cafe1.jpg" class="" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">朝7:30からブレックファーストをご利用頂けます。</p>
           <div class="col-12">
-            <NuxtLink to="/restaurant" class="button">
+            <NuxtLink to="/cafe" class="button">
               <span>詳しくみる</span>
             </NuxtLink>
           </div>
@@ -89,7 +89,7 @@
         <div class="insta">
           <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
             <div class="col-1 social-icon">
-              <img class="" src="~assets/instagram.png" width="100%" alt="instagram-icon" loading="lazy">
+              <nuxt-img class="" src="/instagram.png" width="100%" alt="instagram-icon" loading="lazy" />
             </div>
             <div class="col social-text">
               <div>Instagram</div>

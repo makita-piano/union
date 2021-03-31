@@ -4,7 +4,7 @@
       <div class="grid display-none-mobile header-menu-pc">
         <div class="col-4">
           <NuxtLink to="/">
-            <img src="~assets/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union">
+            <nuxt-img src="/union.png" width="auto" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union" />
           </NuxtLink>
         </div>
         <div class="grid col-8">
@@ -15,8 +15,8 @@
               </NuxtLink>
             </li>
             <li class="col-middle">
-              <NuxtLink to="/restaurant">
-                RESTAURANT
+              <NuxtLink to="/cafe">
+                CAFE
               </NuxtLink>
             </li>
             <li class="col-middle">
@@ -40,7 +40,7 @@
       <nav class="grid menu-container display-none-pc">
         <div class="col" style="text-align: center">
           <NuxtLink to="/" id="home" style="z-index: 9999">
-            <img src="~assets/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union">
+            <nuxt-img src="/union.png" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union" />
           </NuxtLink>
         </div>
         <transition name="trans_slide">
@@ -49,7 +49,7 @@
               <NuxtLink to="/rooms">ROOMS</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
-              <NuxtLink to="/restaurant">RESTAURANT</NuxtLink>
+              <NuxtLink to="/cafe">CAFE</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/unicoin">UNICOIN</NuxtLink>

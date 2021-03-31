@@ -57,7 +57,7 @@ export default {
   position: relative;
 }
 .main-img {
-  background-image: url("~@/assets/union.png");
+  background-image: url("/union.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right center;
