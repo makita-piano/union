@@ -1,7 +1,7 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" src="/top.jpg" width="1024px" style="width: 100%;margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
+      <nuxt-img class="header-img" src="/top.jpg" style="width: 100%;margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
     </div>
     <div class="col-12" style="padding: 1rem">
       <div class="top-box">
