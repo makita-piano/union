@@ -1,7 +1,7 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" src="/top.jpg" style="width: 100%;margin-bottom: 1rem;object-fit: cover" alt="top" loading="lazy" />
+      <nuxt-img class="header-img" :width="img_w_header_img" src="/top.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" />
     </div>
     <div class="col-12" style="padding: 1rem">
       <div class="top-box">
@@ -21,9 +21,9 @@
         <h2 style="text-align: center;margin-top: 2rem">ROOMS</h2>
         <div style="text-align: center">客室</div>
       </div>
-      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+      <div class="grid col-12 room-div" style="">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img src="/room1.jpg" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img class="room-1-img" src="/room1.jpg" :width="img_w_room_1_img" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">ドミトリー、プライベートルームから、お客様の旅のスタイルに合わせてお選び頂けます。シャワー、トイレは共同でのご利用となり、24時間利用可能です。</p>
@@ -40,9 +40,9 @@
         <h2 style="text-align: center;margin-top: 2rem">CAFE</h2>
         <div style="text-align: center">カフェ</div>
       </div>
-      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+      <div class="grid col-12 room-div">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img src="/cafe1.jpg" class="" width="496px" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img src="/cafe1.jpg" class="cafe-1-img" :width="img_w_room_1_img" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">朝7:30からブレックファーストをご利用頂けます。</p>
@@ -89,7 +89,7 @@
         <div class="insta">
           <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
             <div class="col-1 social-icon">
-              <nuxt-img class="" src="/instagram.png" width="100%" alt="instagram-icon" loading="lazy" />
+              <nuxt-img class="" src="/instagram.png" width="48px" alt="instagram-icon" loading="lazy" />
             </div>
             <div class="col social-text">
               <div>Instagram</div>
@@ -110,9 +110,25 @@ export default {
   beforeRouteEnter (to, from, next) {
     next()
   },
+  data () {
+    return {
+      img_w_header_img : undefined,
+      img_w_room_1_img : undefined,
+      vw: undefined,
+    }
+  },
   mounted() {
-    console.log(process.env.KEY)
-  }
+    this.vw = window.innerWidth;
+    if(this.vw > 768){
+      this.img_w_room_1_img = 512
+
+    }
+    else{
+      this.img_w_room_1_img = this.vw-32
+    }
+    this.img_w_header_img = this.vw;
+    // console.log(process.env.KEY)
+  },
 }
 </script>
 
@@ -162,7 +178,7 @@ export default {
   opacity: .5;
 }
 .social-icon > img {
-  height: 3rem;
+  height: 48px;
   padding-left: 1.5rem;
   padding-top: 1rem;
   width: auto;
@@ -343,6 +359,11 @@ export default {
 	z-index: -1;
 }
 
+.room-div{
+  max-width: 1024px;
+  padding: 0 16px 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .header-img {
     height: 300px;
@@ -386,6 +407,9 @@ export default {
     background-position: right 20px center;
     padding: 25px 20px 20px;
     transition: .2s ease;
+  }
+  .room-div{
+    padding: 0 0rem 2rem;
   }
 }
 </style>

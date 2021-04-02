@@ -68,13 +68,12 @@ ul{
 }
 
 .magic {
-  font-family: 'Sofia', cursive;
+  font-family: 'Nunito', cursive;
 }
 
 h1 {
-  font-family: 'Sofia', cursive;
+  font-family: 'Nunito', cursive;
   color: white;
-  font-family: 'Sofia', cursive;
   letter-spacing: .1rem;
   font-weight: 100;
   font-size: 2.5rem;
@@ -83,7 +82,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
   color: #333;
-  font-family: 'Sofia', cursive;
+  font-family: 'Nunito', cursive;
   letter-spacing: .1rem;
   font-weight: 100;
 }

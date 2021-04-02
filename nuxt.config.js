@@ -43,6 +43,9 @@ export default {
     families: {
       'Noto+Sans+JP': true,
       'Sofia': true,
+      'Unica+One': true,
+      'Oxygen': true,
+      'Nunito': true,
     },
     display: 'swap'
   },

@@ -1,14 +1,14 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <nuxt-img class="header-img" src="/room1.jpg" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top" />
+      <nuxt-img class="header-img" src="/room1.jpg" :width="img_w_header_img" style="width: 100%;margin-bottom: 2rem;object-fit: cover" alt="top" />
       <h1 class="header-img-h1">ROOMS</h1>
     </div>
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room2.jpg" width="100%" alt="top" style="object-fit: cover" />
+            <nuxt-img src="/room2.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -52,7 +52,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room4.jpg" width="100%" alt="top" style="object-fit: cover" />
+            <nuxt-img src="/room4.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -96,7 +96,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room3.jpg" width="100%" alt="top" style="object-fit: cover" />
+            <nuxt-img src="/room3.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -144,23 +144,23 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          <nuxt-img src="/no-image.png" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
           シャワー
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          <nuxt-img src="/no-image.png" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
           トイレ
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          <nuxt-img src="/no-image.png" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
           エアコン
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          <nuxt-img src="/no-image.png" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
           コンセント
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/no-image.png" width="100%" alt="top" style="object-fit: cover" />
+          <nuxt-img src="/no-image.png" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
           無料wi-fi
         </div>
       </div>
@@ -170,13 +170,31 @@
 
 <script>
 export default {
+  data () {
+    return {
+      img_w_header_img: undefined,
+      img_w_room_img: undefined,
+      img_w_item_img: undefined,
+      vw: undefined,
+    }
+  },
+  mounted() {
+    this.vw = window.innerWidth;
+    if(this.vw > 768){
+      this.img_w_room_img = 480
+      this.img_w_item_img = 232
+    }
+    else{
+      this.img_w_room_img = this.vw-64
+      this.img_w_item_img = parseInt((this.vw-64)/2)
+    }
+    this.img_w_header_img = this.vw;
+    // console.log(process.env.KEY)
+  },
 }
 </script>
 
 <style>
-
-
-
 @media screen and (max-width: 768px) {
 
 
