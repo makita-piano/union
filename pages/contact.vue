@@ -6,10 +6,23 @@
     </div>
 
     <div class="col-12" style="margin: 1.5rem 0 2rem 0;text-align: center">
-      <p>
-        FaceBookよりお問い合わせください
-      </P>
-      <iframe loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsZt96dsWrQ5yAnvPz6McYwaxukKd5k07FOBiRmv9uGH0juA/viewform?embedded=true" class="iframe" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
     </div>
   </div>
 </template>
+
+<style scoped>
+@media (max-width: 768px) {
+  .iframe{
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (min-width: 769px) {
+  .iframe{
+    width: 70%;
+    height: 1500px;
+  }
+}
+</style>
