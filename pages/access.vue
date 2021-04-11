@@ -6,14 +6,14 @@
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="col-12" style="max-width: 1024px">
-        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.500097162461!2d140.4637133153172!3d37.754870479763035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a85ceb6da8711%3A0xd8232e7b17b8f95d!2z44CSOTYwLTgwNDEg56aP5bO255yM56aP5bO25biC5aSn55S677yR4oiS77yR77ySIOmVt-iwt-W3neesrOS6jOODk-ODqw!5e0!3m2!1sja!2sjp!4v1612861256507!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.4999683894707!2d140.46369284586743!3d37.75487349999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a8529b5c4dd5d%3A0x175f72fc3d1ad3d!2zTGEgVW5pw7Nu!5e0!3m2!1sja!2sjp!4v1618127875630!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
       </div>
       <div class="grid-center col-12">
         <div class="col-12" style="max-width: 1024px;padding: .5rem">
           <h3>住所</h3>
           <span>
           TEL：024-572-5838<br>
-          〒960-8041 福島県福島市大町1－12　長谷川第2ビル<br>
+          〒960-8041 福島県福島市大町1-12　2F･3F ウニオンビル<br>
           </span>
           <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank" style="margin-bottom: .5rem">Google Map</a>
 

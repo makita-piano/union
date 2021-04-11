@@ -1,24 +1,35 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" :width="img_w_header_img" src="/top.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" />
+      <nuxt-img class="header-img" :width="img_w_header_img" src="/top5.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" />
     </div>
     <div class="col-12" style="padding: 1rem">
       <div class="top-box">
-        旅行者と地元の方との接点。<br>福島がもつ素敵な体験のヒトトキを<br>ラユニオンから始めませんか。
+        ここは福島県福島市大町１丁目。<br>まちの接点となる福島の入口です。<br>ご旅行の方も地元の方も気軽に<br class="display-none-pc">集い、<br class="display-none-mobile">語らい、交わる場所を<br class="display-none-pc">ご用意しております。
+      </div>
+    </div>
+
+    <div class="c-txt" style="padding: 1rem">
+      <div class="youtube" style="text-align: center">
+        <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/KORdM7jgVdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-12">
       <div class="top-txt">
-        <p class="c-txt">ラウニオンは最大8名まで泊まれるシェアルームなら、一人2,800円～泊まれます！！<br>
-「集い」を意味する店名の当施設は、この福島という地に集まった旅人と地域を繋ぐ拠点として、カフェとゲストハウスを併設しています。<br>
-「La Union」は、福島の街の入り口として、街と繋がりながら気軽に滞在できるゲストハウス／ホステルとして作りました。なんでも揃っているわけではないけれど、「La Union」から一歩街に出れば見つけられる。街と旅の思い出を繋ぐ拠点となれるような場所になるようにと、たくさんの想いを詰め込んで出来た皆さんの家です。<br>
-もちろん、旅行に来た人だけではなく、地元の方のご利用も大歓迎です！日々の生活を充実させたい人、ちょっとだけ休みたい人、終電を逃してしまった人など、たくさんの人が当施設を活用してくれたら嬉しいです。</p>
+        <p class="c-txt">スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として<br class="display-none-mobile">
+お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています。<br>
+<br>
+築約50年、使われなくなって10年以上経っていたビルをセルフリノベーションで仕立てました。<br>
+福島のまちのど真ん中から、まちの移り変わりを見届けてきた建物だからこそ持っている<br class="display-none-mobile">
+味わいのある床や、どっしりと趣のある配電盤など残せるものはできる限り残しています。<br>
+古い建物なので少しだけご不便をおかけしてしまうところもあるかもしれませんが、<br class="display-none-mobile">
+その分、仲間が集い、語り合える広い空間があります。<br>
+まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる余白をぜひお楽しみくださいませ。</p>
       </div>
     </div>
     <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">ROOMS</h2>
+        <h2 style="text-align: center;margin-top: 2rem">STAY</h2>
         <div style="text-align: center">客室</div>
       </div>
       <div class="grid col-12 room-div" style="">
@@ -28,7 +39,7 @@
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">ドミトリー、プライベートルームから、お客様の旅のスタイルに合わせてお選び頂けます。シャワー、トイレは共同でのご利用となり、24時間利用可能です。</p>
           <div class="col-12">
-            <NuxtLink to="/rooms" class="button">
+            <NuxtLink to="/stay" class="button">
               <span>詳しくみる</span>
             </NuxtLink>
           </div>
@@ -37,7 +48,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">CAFE</h2>
+        <h2 style="text-align: center;margin-top: 2rem">FOOD</h2>
         <div style="text-align: center">カフェ</div>
       </div>
       <div class="grid col-12 room-div">
@@ -45,9 +56,10 @@
           <nuxt-img src="/cafe1.jpg" class="cafe-1-img" :width="img_w_room_1_img" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">朝7:30からブレックファーストをご利用頂けます。</p>
+          <p style="padding: 2rem">一般の方もご利用いただけるカフェラウンジです。世界の料理やドリンクをご提供しております。
+          </p>
           <div class="col-12">
-            <NuxtLink to="/cafe" class="button">
+            <NuxtLink to="/food" class="button">
               <span>詳しくみる</span>
             </NuxtLink>
           </div>
@@ -80,25 +92,30 @@
         </ul>
     </div>-->
     <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
-      <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
-        <div style="text-align: center">お知らせ</div>
-        <div style="margin: 1.5rem 0 2rem 0;text-align: center">
-          <iframe loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <div class="grid col-12" style="margin-bottom: 2rem;padding: 1rem">
+        <h2 class="col-12 ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
+        <div class="col-12" style="text-align: center">お知らせ</div>
+        <div class="col-8_md-6_sm-12 google-cal">
+          <iframe src="https://calendar.google.com/calendar/embed?src=pf8bc69ocerhs347n01hfnrd8o%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
-        <div class="insta">
-          <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
-            <div class="col-1 social-icon">
-              <nuxt-img class="" src="/instagram.png" width="48px" alt="instagram-icon" loading="lazy" />
-            </div>
-            <div class="col social-text">
-              <div>Instagram</div>
-              <div class="social-name">@launifuku</div>
-            </div>
-          </a>
-          <p class="follow_me" data-heading="Follow Me！">
-            Follow Me！
-          </p>
+        <div class="col-4_md-6_sm-12">
+          <div class="fbook">
+            <iframe loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+          <div class="insta">
+            <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
+              <div class="col-1 social-icon">
+                <nuxt-img class="" src="/instagram.png" width="48px" alt="instagram-icon" loading="lazy" />
+              </div>
+              <div class="col social-text">
+                <div>Instagram</div>
+                <div class="social-name">@launifuku</div>
+              </div>
+            </a>
+            <p class="follow_me" data-heading="Follow Me！">
+              Follow Me！
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -167,6 +184,7 @@ export default {
 }
 .social {
   text-decoration: none;
+  margin-top: 1rem;
 }
 .social-text {
   color: white;
@@ -189,7 +207,6 @@ export default {
   border-radius: 3rem;
   float: none;
   height: 4rem;
-  margin: auto;
   position: relative;
   max-width: 340px;
   width: 90%;
@@ -244,6 +261,30 @@ export default {
   text-align: center;
 }
 
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  text-align: center
+}
+.youtube-iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.google-cal {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.google-cal iframe {
+  width: 600px;
+  height:400px;
+}
+
 .title {
   color: #35495E;
   display: block;
@@ -278,7 +319,7 @@ export default {
   align-items: center;
   color: #FFF;
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   height: 200px;
   justify-content: center;
   letter-spacing: 3.9px;
@@ -371,8 +412,29 @@ export default {
   .font-size-1-mobile {
     font-size: 1rem;
   }
+
+  .c-txt {
+    min-width: 100%;
+  }
+
+  .google-cal iframe {
+    height:600px;
+    max-width: 100%;
+  }
+  .fbook {
+    text-align: center;
+  }
+  .insta {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 769px) {
+
+  .google-cal iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+  }
   .c-txt {
     margin: auto;
     width: 768px;

@@ -1,12 +1,12 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" src="/top.jpg" width="100%" style="object-fit: cover" alt="top" loading="lazy" />
+      <nuxt-img class="header-img" src="/unicoin_top.jpg" width="100%" style="object-fit: cover" alt="top" loading="lazy" />
     </div>
     <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">ABOUT</h2>
-        <div style="text-align: center">ユニコインとは</div>
+        <div style="text-align: center">ウニコインとは</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-12" style="text-align: center">

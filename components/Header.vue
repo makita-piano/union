@@ -10,13 +10,13 @@
         <div class="grid col-8">
           <ul class="grid col-12">
             <li class="col-middle">
-              <NuxtLink to="/rooms">
-                ROOMS
+              <NuxtLink to="/stay">
+                STAY
               </NuxtLink>
             </li>
             <li class="col-middle">
-              <NuxtLink to="/cafe">
-                CAFE
+              <NuxtLink to="/food">
+                FOOD
               </NuxtLink>
             </li>
             <li class="col-middle">
@@ -46,10 +46,10 @@
         <transition name="trans_slide">
           <ul class="menu" v-if="isMenuShow">
             <li class="menu-item" v-on:click="menuShow">
-              <NuxtLink to="/rooms">ROOMS</NuxtLink>
+              <NuxtLink to="/stay">STAY</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
-              <NuxtLink to="/cafe">CAFE</NuxtLink>
+              <NuxtLink to="/food">FOOD</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
