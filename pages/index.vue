@@ -105,7 +105,7 @@
     <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
       <div class="grid col-12" style="margin-bottom: 2rem;padding: 1rem">
         <h2 class="col-12 ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
-        <div class="col-12" style="text-align: center">お知らせ</div>
+        <div class="col-12" style="text-align: center;margin-bottom: 2rem">お知らせ</div>
         <div class="col-8_md-6_sm-12 google-cal">
           <iframe src="https://calendar.google.com/calendar/embed?src=pf8bc69ocerhs347n01hfnrd8o%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
