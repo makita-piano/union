@@ -3,16 +3,11 @@
     <div class="col-12">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
-          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top1.jpg" style="object-fit: cover;width: 100%" alt="header-img" /></swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top2.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top3.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top4.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top5.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
+          <swiper-slide v-for="n in 5"><nuxt-img class="header-img" :width="img_w_header_img" :src="'/top' + n + '.jpg'" alt="header-img" /></swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </client-only>
     </div>
-
 
     <div class="col-12" style="padding: 1rem">
       <div class="top-box">
@@ -433,9 +428,6 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .header-img {
-    height: 300px;
-  }
   .font-size-1-mobile {
     font-size: 1rem;
   }
@@ -465,9 +457,6 @@ export default {
   .c-txt {
     margin: auto;
     width: 768px;
-  }
-  .header-img {
-    height: 450px;
   }
   .top-box {
     font-size: 17px;

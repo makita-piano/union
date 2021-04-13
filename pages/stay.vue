@@ -145,7 +145,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">Facilities common</h2>
+        <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">FACILITIES COMMON</h2>
         <div style="text-align: center">客室共通設備</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -177,7 +177,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">Fee Table</h2>
+        <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">FEE TABLE</h2>
         <div style="text-align: center">宿泊料金表</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">

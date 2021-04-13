@@ -106,6 +106,11 @@ body {
   letter-spacing: .3rem;
 }
 
+.header-img {
+  object-fit: cover;
+  width: 100%;
+}
+
 @media screen and (min-width: 769px) {
   .display-none-pc {
     display: none !important;

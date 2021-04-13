@@ -6,7 +6,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">Concept</h2>
+        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">CONCEPT</h2>
         <div style="text-align: center">コンセプト</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -25,7 +25,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">Opening Hour</h2>
+        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">OPENING HOUR</h2>
         <div style="text-align: center">営業時間</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -49,7 +49,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">Menu</h2>
+        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">MENU</h2>
         <div style="text-align: center">メニュー</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">

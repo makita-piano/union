@@ -1,7 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  components: true,
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -14,12 +13,13 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'La Union 福島（ラウニオン）' },
       { hid: 'og:description', property: 'og:description', content: 'スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています' },
-      { hid: 'og:image', property: 'og:image', content: '/union.png' }
+      { hid: 'og:image', property: 'og:image', content: '/union.png' },
+      { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
       { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css" },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -43,9 +43,6 @@ export default {
   googleFonts: {
     families: {
       'Noto+Sans+JP': true,
-      'Sofia': true,
-      'Unica+One': true,
-      'Oxygen': true,
       'Nunito': true,
     },
     display: 'swap'
