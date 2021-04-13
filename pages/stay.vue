@@ -108,7 +108,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">ドミトリー</h3>
             </div>
-            <p style="padding: 2rem">必要最低限の電源やスマホのワイヤレス充電をご利用いただけます。タオル・歯ブラシ付き。</p>
+            <p style="padding: 2rem">必要最低限の電源やスマホのワイヤレス充電をご利用いただけます。タオル・歯ブラシ付き。　</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
