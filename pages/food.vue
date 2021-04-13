@@ -34,7 +34,7 @@
             <div class="col-12">
               <h3>ランチ</h3>
             </div>
-            11:30 ~ 14:30 （LO 14:00）
+            11:30 ~ 14:00
           </div>
         </div>
         <div class="grid col-6_sm-12">
