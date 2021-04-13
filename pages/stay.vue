@@ -45,7 +45,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      6,200円
+                      6,200円～
                     </td>
                   </tr>
                 </tbody>
@@ -89,7 +89,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      5,900円
+                      5,900円～
                     </td>
                   </tr>
                 </tbody>
@@ -133,7 +133,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      2,900円
+                      2,900円～
                     </td>
                   </tr>
                 </tbody>
