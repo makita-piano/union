@@ -40,7 +40,7 @@
       </div>
       <div class="grid col-12 room-div" style="">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img class="room-1-img" src="/room1.jpg" :width="img_w_room_1_img" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img class="room-1-img" src="/room1.jpg" :width="512" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">ドミトリー、プライベートルームから、お客様の旅のスタイルに合わせてお選び頂けます。シャワー、トイレは共同でのご利用となり、24時間利用可能です。</p>
@@ -139,7 +139,7 @@ export default {
   data () {
     return {
       img_w_header_img : undefined,
-      img_w_room_1_img : undefined,
+      img_w_room_1_img : 512,
       vw: undefined,
       swiperOption: {
         autoplay: {
