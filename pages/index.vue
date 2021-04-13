@@ -1,8 +1,19 @@
 <template>
   <div class="grid col-12">
     <div class="col-12">
-      <nuxt-img class="header-img" :width="img_w_header_img" src="/top5.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" />
+      <client-only>
+        <swiper class="swiper" :options="swiperOption">
+          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top1.jpg" style="object-fit: cover;width: 100%" alt="header-img" /></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top2.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top3.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top4.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" :width="img_w_header_img" src="/top5.jpg" style="object-fit: cover;width: 100%" loading="lazy" alt="header-img" /></swiper-slide>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
+      </client-only>
     </div>
+
+
     <div class="col-12" style="padding: 1rem">
       <div class="top-box">
         ここは福島県福島市大町１丁目。<br>まちの接点となる福島の入口です。<br>ご旅行の方も地元の方も気軽に<br class="display-none-pc">集い、<br class="display-none-mobile">語らい、交わる場所を<br class="display-none-pc">ご用意しております。
@@ -123,7 +134,10 @@
 </template>
 
 <script>
+  import 'swiper/css/swiper.css'
 export default {
+
+
   beforeRouteEnter (to, from, next) {
     next()
   },
@@ -132,6 +146,19 @@ export default {
       img_w_header_img : undefined,
       img_w_room_1_img : undefined,
       vw: undefined,
+      swiperOption: {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        slidesPerView: 1,
+        loop: true,
+        effect: 'fade',
+      },
     }
   },
   mounted() {

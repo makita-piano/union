@@ -1,8 +1,14 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <nuxt-img class="header-img" src="/room1.jpg" :width="img_w_header_img" style="width: 100%;margin-bottom: 2rem;object-fit: cover" alt="top" />
-      <h1 class="header-img-h1">STAY</h1>
+      <client-only>
+        <swiper class="swiper" :options="swiperOption">
+          <swiper-slide><nuxt-img class="header-img" src="/troom1.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" src="/troom2.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" src="/troom3.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
+      </client-only>
     </div>
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
@@ -169,6 +175,15 @@
         </div>
       </div>
     </div>
+    <div class="grid-center col-12" style="margin-top: 2rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">Fee Table</h2>
+        <div style="text-align: center">宿泊料金表</div>
+      </div>
+      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+        <nuxt-img src="/fee_table.jpg" :width="img_w_fee_img" alt="top" style="width: 100%;object-fit: cover" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -179,18 +194,34 @@ export default {
       img_w_header_img: undefined,
       img_w_room_img: undefined,
       img_w_item_img: undefined,
+      img_w_fee_img: undefined,
       vw: undefined,
+      swiperOption: {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        slidesPerView: 1,
+        loop: true,
+        effect: 'fade',
+      },
     }
   },
   mounted() {
     this.vw = window.innerWidth;
     if(this.vw > 768){
       this.img_w_room_img = 480
+      this.img_w_fee_img = 1024
       this.img_w_item_img = 232
     }
     else{
       this.img_w_room_img = this.vw-64
       this.img_w_item_img = parseInt((this.vw-64)/2)
+      this.img_w_fee_img = this.vw
     }
     this.img_w_header_img = this.vw;
     // console.log(process.env.KEY)
