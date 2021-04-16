@@ -32,7 +32,15 @@ export default {
   },
   mounted() {
     this.img = true;
-  }
+  },
+  head() {
+    return {
+      title: "NOTFOUND｜La Union 福島（ラウニオン）",
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'NOTFOUND｜La Union 福島（ラウニオン）' }
+      ]
+    }
+  },
 }
 </script>
 

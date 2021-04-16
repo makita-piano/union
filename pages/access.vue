@@ -49,3 +49,16 @@ h3 {
   }
 }
 </style>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "ACCESS｜La Union 福島（ラウニオン）",
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'ACCESS｜La Union 福島（ラウニオン）' }
+      ]
+    }
+  },
+}
+</script>

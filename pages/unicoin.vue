@@ -53,6 +53,14 @@ La Unionでは宿泊される方にウェルカムドリンクとして使える
 
 <script>
 export default {
+  head() {
+    return {
+      title: "FOOD｜La Union 福島（ラウニオン）",
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'FOOD｜La Union 福島（ラウニオン）' }
+      ]
+    }
+  },
 }
 </script>
 <style scoped>

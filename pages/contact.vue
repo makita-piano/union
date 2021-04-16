@@ -26,3 +26,16 @@
   }
 }
 </style>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "CONTACT｜La Union 福島（ラウニオン）",
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'CONTACT｜La Union 福島（ラウニオン）' }
+      ]
+    }
+  },
+}
+</script>

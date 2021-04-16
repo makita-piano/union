@@ -189,6 +189,14 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "STAY｜La Union 福島（ラウニオン）",
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'STAY｜La Union 福島（ラウニオン）' }
+      ]
+    }
+  },
   data () {
     return {
       img_w_header_img: undefined,
