@@ -3,7 +3,11 @@
     <div class="col-12 header-img-div">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
-          <swiper-slide><nuxt-img class="header-img" src="/troom1.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide>
+            <nuxt-img v-if="this.$store.state.pc" class="header-img" src="/troom1.jpg" :width="1800" style="width: 100%;object-fit: cover" alt="top" />
+            <nuxt-img v-if="!this.$store.state.pc" class="header-img" src="/troom1.jpg" :width="768" style="width: 100%;object-fit: cover" alt="top" />
+            <h1 class="header-img-h1">STAY</h1>
+            </swiper-slide>
           <swiper-slide><nuxt-img class="header-img" src="/troom2.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
           <swiper-slide><nuxt-img class="header-img" src="/troom3.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
@@ -14,7 +18,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room2.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room2.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -58,7 +62,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room3.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room3.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -102,7 +106,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room4.jpg" :width="img_w_room_img" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room4.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -200,7 +204,6 @@ export default {
   data () {
     return {
       img_w_header_img: undefined,
-      img_w_room_img: undefined,
       img_w_item_img: undefined,
       img_w_fee_img: undefined,
       vw: undefined,
@@ -222,12 +225,10 @@ export default {
   mounted() {
     this.vw = window.innerWidth;
     if(this.vw > 768){
-      this.img_w_room_img = 480
       this.img_w_fee_img = 1024
       this.img_w_item_img = 232
     }
     else{
-      this.img_w_room_img = this.vw-64
       this.img_w_item_img = parseInt((this.vw-64)/2)
       this.img_w_fee_img = this.vw
     }
