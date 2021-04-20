@@ -4,8 +4,7 @@
       <client-only>
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide>
-            <nuxt-img v-if="this.$store.state.pc" class="header-img" src="/troom1.jpg" :width="1800" style="width: 100%;object-fit: cover" alt="top" />
-            <nuxt-img v-if="!this.$store.state.pc" class="header-img" src="/troom1.jpg" :width="768" style="width: 100%;object-fit: cover" alt="top" />
+            <nuxt-img class="header-img" src="/troom1.jpg" sizes="md:768px lg:1800px" style="width: 100%;object-fit: cover" alt="top" />
             <h1 class="header-img-h1">STAY</h1>
             </swiper-slide>
           <swiper-slide><nuxt-img class="header-img" src="/troom2.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
@@ -18,7 +17,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room2.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room2.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -62,7 +61,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room3.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room3.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -106,7 +105,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room4.jpg" :width="480" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room4.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
