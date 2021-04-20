@@ -1,7 +1,7 @@
 <template>
   <div class="grid col-12">
     <div class="col-12 header-img-div">
-      <nuxt-img class="header-img" src="/cafe1.jpg" width="100%" style="margin-bottom: 2rem;object-fit: cover" alt="top" />
+      <nuxt-img class="header-img" src="/cafe1.jpg" width="1920" style="width: 100%;margin-bottom: 2rem;object-fit: cover" alt="top" />
       <h1 class="header-img-h1">FOOD</h1>
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
@@ -11,7 +11,7 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
-          <nuxt-img src="/cafe2.jpg" width="100%" alt="top" />
+          <nuxt-img src="/cafe2.jpg" width="704" style="width: 100%" alt="top" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">かつて世界を自転車で旅をしたオーナーが現地で食べ飲んだ世界のお料理とドリンクをご用意しております。<br>

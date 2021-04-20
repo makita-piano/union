@@ -3,7 +3,7 @@
     <div class="col-12">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
-          <swiper-slide v-for="n in 5" :key="n"><nuxt-img class="header-img" :width="img_w_header_img" :src="'/top' + n + '.jpg'" alt="header-img" /></swiper-slide>
+          <swiper-slide v-for="n in 5" :key="n"><nuxt-img class="header-img" :width="1920" :src="'/top' + n + '.jpg'" alt="header-img" /></swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </client-only>
@@ -40,7 +40,7 @@
       </div>
       <div class="grid col-12 room-div" style="">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img class="room-1-img" src="/room1.jpg" sizes="lg:512px" width="1024" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img class="room-1-img" src="/room1.jpg" width="736" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">ドミトリー、 プライベートルームから、お客様の旅のスタイルに合わせてお選び頂けます。シャワー、トイレは共同でのご利用となり、24時間利用可能です。</p>
@@ -59,7 +59,7 @@
       </div>
       <div class="grid col-12 room-div">
         <div class="grid col-6_sm-12 cover-img">
-          <nuxt-img src="/cafe1.jpg" class="cafe-1-img" :width="img_w_room_1_img" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
+          <nuxt-img src="/cafe1.jpg" class="cafe-1-img" width="736" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem">一般の方もご利用いただけるカフェラウンジです。世界の料理やドリンクをご提供しております。
@@ -111,7 +111,7 @@
           <div class="insta">
             <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social">
               <div class="col-1 social-icon">
-                <nuxt-img class="" src="/instagram.png" width="48px" alt="instagram-icon" loading="lazy" />
+                <nuxt-img class="" src="/instagram.png" width="48" alt="instagram-icon" loading="lazy" />
               </div>
               <div class="col social-text">
                 <div>Instagram</div>

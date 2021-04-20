@@ -3,12 +3,9 @@
     <div class="col-12 header-img-div">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
-          <swiper-slide>
-            <nuxt-img class="header-img" src="/troom1.jpg" sizes="md:768px lg:1800px" style="width: 100%;object-fit: cover" alt="top" />
-            <h1 class="header-img-h1">STAY</h1>
-            </swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" src="/troom2.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
-          <swiper-slide><nuxt-img class="header-img" src="/troom3.jpg" :width="img_w_header_img" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" src="/troom1.jpg" width="1920" style="width: 100%;object-fit: cover" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" src="/troom2.jpg" width="1920" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
+          <swiper-slide><nuxt-img class="header-img" src="/troom3.jpg" width="1920" style="width: 100%;object-fit: cover" loading="lazy" alt="top" /><h1 class="header-img-h1">STAY</h1></swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </client-only>
@@ -17,7 +14,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room2.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room2.jpg" width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -61,7 +58,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room3.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room3.jpg" width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -105,7 +102,7 @@
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
-            <nuxt-img src="/room4.jpg" :width="704" alt="top" style="width: 100%;object-fit: cover" />
+            <nuxt-img src="/room4.jpg" width="704" alt="top" style="width: 100%;object-fit: cover" />
           </div>
           <div class="col-6_sm-12">
             <div>
@@ -153,27 +150,27 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/shower.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/shower.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           シャワー
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/toilet1.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/toilet1.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           トイレ①
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/toilet2.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/toilet2.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           トイレ②
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/wash_room.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/wash_room.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           ウォッシュルーム
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/powder_room.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/powder_room.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           パウダールーム
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/amenities.jpg" :width="img_w_item_img" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/amenities.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
           共有アメニティ
         </div>
       </div>
@@ -184,7 +181,7 @@
         <div style="text-align: center">宿泊料金表</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <nuxt-img src="/fee_table.jpg" :width="img_w_fee_img" alt="top" style="width: 100%;object-fit: cover" />
+        <nuxt-img src="/fee_table.jpg" width="1024" alt="top" style="width: 100%;object-fit: cover" />
       </div>
     </div>
   </div>
@@ -202,9 +199,6 @@ export default {
   },
   data () {
     return {
-      img_w_header_img: undefined,
-      img_w_item_img: undefined,
-      img_w_fee_img: undefined,
       vw: undefined,
       swiperOption: {
         autoplay: {
@@ -222,16 +216,6 @@ export default {
     }
   },
   mounted() {
-    this.vw = window.innerWidth;
-    if(this.vw > 768){
-      this.img_w_fee_img = 1024
-      this.img_w_item_img = 232
-    }
-    else{
-      this.img_w_item_img = parseInt((this.vw-64)/2)
-      this.img_w_fee_img = this.vw
-    }
-    this.img_w_header_img = this.vw;
     // console.log(process.env.KEY)
   },
 }
