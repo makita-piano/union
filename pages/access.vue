@@ -22,8 +22,11 @@
           </div>
 
           <h3 style="margin-top: 2rem">駐車場</h3>
+          <div class="col-12" style="max-width: 1024px;margin-top: .5rem">
+            <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=15TELKttalvDvhngUP-1WaQb2UG_Tmb6h" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+          </div>
           <span>
-          駐車場はございません。近隣のコインパーキング（提携外）をご案内させて頂いております。
+            駐車場はございません。近隣のコインパーキング（提携外）をご案内させて頂いております。
           </span>
         </div>
       </div>
