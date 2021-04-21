@@ -61,8 +61,8 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;" />
-          開発中
+          <nuxt-img src="/food2.jpg" width="100%" alt="top" style="" />
+          トルコ風坊さんの気絶
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
           <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;" />

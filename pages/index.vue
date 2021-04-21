@@ -3,7 +3,9 @@
     <div class="col-12">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
-          <swiper-slide v-for="n in 5" :key="n"><nuxt-img class="header-img" :width="1920" :src="'/top' + n + '.jpg'" alt="header-img" /></swiper-slide>
+          <swiper-slide v-for="n in 5" :key="n">
+            <nuxt-img class="header-img" width="1920" :src="'/top' + n + '.jpg'" alt="index-header-img" />
+          </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </client-only>
@@ -15,14 +17,14 @@
       </div>
     </div>
 
-    <div class="c-txt" style="padding: 1rem">
-      <div class="youtube" style="text-align: center">
+    <div class="min-width-768" style="padding: 1rem">
+      <div class="youtube">
         <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/KORdM7jgVdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-12">
       <div class="top-txt">
-        <p class="c-txt">スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として<br class="display-none-mobile">
+        <p class="min-width-768">スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として<br class="display-none-mobile">
 お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています。<br>
 <br>
 築約50年、使われなくなって10年以上経っていたビルをセルフリノベーションで仕立てました。<br>
@@ -427,13 +429,13 @@ export default {
   padding: 0 16px 2rem;
 }
 
+.min-width-768 {
+  min-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .font-size-1-mobile {
     font-size: 1rem;
-  }
-
-  .c-txt {
-    min-width: 100%;
   }
 
   .google-cal iframe {
@@ -454,9 +456,10 @@ export default {
     max-width: 800px;
     height: 600px;
   }
-  .c-txt {
+  .min-width-768 {
     margin: auto;
     width: 768px;
+    min-width: auto;
   }
   .top-box {
     font-size: 17px;
