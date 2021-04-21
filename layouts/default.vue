@@ -36,38 +36,36 @@
 
 <style>
 /* gridlex */
-[class*="grid-"], [class^="grid"] {
-    margin: 0;
+[class*='grid-'] , [class^='grid'] {
+  margin: 0;
 }
-[class*="col-"], [class^="col"] {
-    padding: 0;
+[class*='col-'] , [class^='col'] {
+  padding: 0;
 }
 html {
+  box-sizing: border-box;
+  color: #939597;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  margin: 0;
-  color: #939597;
   font-style: normal;
   font-weight: 500;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  word-spacing: 1px;
 }
 
-*,
-*::before,
-*::after {
+* , *::before , *::after {
   box-sizing: border-box;
   margin: 0;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .magic {
@@ -75,19 +73,19 @@ ul{
 }
 
 h1 {
-  font-family: 'Nunito', cursive;
   color: white;
-  letter-spacing: .1rem;
-  font-weight: 100;
+  font-family: 'Nunito', cursive;
   font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: .1rem;
 }
 
 h2 {
-  font-size: 2.5rem;
   color: #333;
   font-family: 'Nunito', cursive;
-  letter-spacing: .1rem;
+  font-size: 2.5rem;
   font-weight: 100;
+  letter-spacing: .1rem;
 }
 
 body {
@@ -99,19 +97,23 @@ body {
 }
 
 .header-img-h1 {
+  color: white;
+  left: 50%;
+  letter-spacing: .3rem;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  color: white;
-  letter-spacing: .3rem;
 }
 
 .header-img {
   object-fit: cover;
   width: 100%;
+}
+
+.bg-grey {
+  background: rgb(238, 238, 238 , .5);
 }
 
 @media screen and (min-width: 769px) {
@@ -131,21 +133,20 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .display-none-mobile{
+  .display-none-mobile {
     display: none !important;
   }
   .header-img {
     height: 300px;
   }
-
 }
 
 .router-transition-enter-active {
   animation: fadeIn .5s ease-in;
-  }
-  @keyframes fadeIn {
+}
+@keyframes fadeIn {
   from {
-    opacity: 0.8;
+    opacity: .8;
     transform: translateY(-3px);
   }
   to {
@@ -156,8 +157,8 @@ body {
 
 .opening-enter-active {
   animation: fadeIns 2s ease-out;
-  }
-  @keyframes fadeIns {
+}
+@keyframes fadeIns {
   from {
     opacity: .3;
   }

@@ -7,14 +7,14 @@
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">CONCEPT</h2>
-        <div style="text-align: center">コンセプト</div>
+        <div style="text-align: center;letter-spacing: .5rem;">コンセプト</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
+        <div class="col-6_sm-12">
           <nuxt-img src="/cafe2.jpg" width="704" style="width: 100%" alt="top" />
         </div>
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem">かつて世界を自転車で旅をしたオーナーが現地で食べ飲んだ世界のお料理とドリンクをご用意しております。<br>
+          <p style="padding: 0 1rem">かつて世界を自転車で旅をしたオーナーが現地で食べ飲んだ世界のお料理とドリンクをご用意しております。<br>
 奇抜な食べ物ではなく、みんなの知っている食材を少しだけエスニックに仕上げた料理を中心に作っていますので
 初めての方にとってもできるだけ敷居が高くならないようにしています。<br>
 福島では初の取り扱いとなるビールなどもご用意しました。
@@ -22,10 +22,10 @@
         </div>
       </div>
     </div>
-    <div class="grid-center col-12" style="margin-top: 2rem">
-      <div class="col-12" style="margin-bottom: 2rem">
+    <div class="grid-center col-12">
+      <div style="margin-bottom: 2rem">
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">OPENING HOUR</h2>
-        <div style="text-align: center">営業時間</div>
+        <div style="text-align: center;letter-spacing: .5rem">営業時間</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
@@ -49,7 +49,7 @@
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">MENU</h2>
-        <div style="text-align: center">メニュー</div>
+        <div style="text-align: center;letter-spacing: .5rem;">メニュー</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
@@ -61,12 +61,12 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/food2.jpg" width="100%" alt="top" style="" />
+          <nuxt-img src="/food2.jpg" width="100%" alt="top" />
           トルコ風坊さんの気絶
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;" />
-          開発中
+          <nuxt-img src="/food3.jpg" width="100%" alt="" />
+          ロモサルタード
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
           <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;" />

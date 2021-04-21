@@ -35,12 +35,12 @@
 まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる余白をぜひお楽しみくださいませ。</p>
       </div>
     </div>
-    <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
+    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">STAY</h2>
         <div style="text-align: center">客室</div>
       </div>
-      <div class="grid col-12 room-div" style="">
+      <div class="grid col-12 room-div" style="padding: 0 1rem">
         <div class="grid col-6_sm-12 cover-img">
           <nuxt-img class="room-1-img" src="/room1.jpg" width="736" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
@@ -54,12 +54,12 @@
         </div>
       </div>
     </div>
-    <div class="grid-center col-12" style="margin-top: 2rem">
-      <div class="col-12" style="margin-bottom: 2rem">
+    <div class="grid-center col-12">
+      <div style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">FOOD</h2>
         <div style="text-align: center">カフェ</div>
       </div>
-      <div class="grid col-12 room-div">
+      <div class="grid col-12 room-div" style="padding: 0 1rem">
         <div class="grid col-6_sm-12 cover-img">
           <nuxt-img src="/cafe1.jpg" class="cafe-1-img" width="736" style="width: 100%;object-fit: cover" alt="top" loading="lazy" />
         </div>
