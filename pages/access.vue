@@ -6,8 +6,8 @@
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="col-12" style="max-width: 1024px">
-        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.4999683894707!2d140.46369284586743!3d37.75487349999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a8529b5c4dd5d%3A0x175f72fc3d1ad3d!2zTGEgVW5pw7Nu!5e0!3m2!1sja!2sjp!4v1618127875630!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
-      </div>
+        <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=1T2L1AZCRcOFLUq8hwKgR2ydABnoUH0Xp&z=17" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+     </div>
       <div class="grid-center col-12">
         <div class="col-12" style="max-width: 1024px;padding: .5rem">
           <h3>住所</h3>
