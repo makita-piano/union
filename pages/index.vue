@@ -35,7 +35,7 @@
 まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる余白をぜひお楽しみくださいませ。</p>
       </div>
     </div>
-    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem">
+    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">STAY</h2>
         <div style="text-align: center">客室</div>
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="grid-center col-12">
-      <div style="margin-bottom: 2rem">
+      <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">FOOD</h2>
         <div style="text-align: center">カフェ</div>
       </div>
