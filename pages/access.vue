@@ -14,6 +14,7 @@
           <span>
           TEL：024-572-5838<br>
           〒960-8041 福島県福島市大町1-12　2F･3F ウニオンビル<br>
+          福島駅より徒歩8分<br>
           </span>
           <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank" style="margin-bottom: .5rem">Google Map</a>
 
