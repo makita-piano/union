@@ -180,8 +180,66 @@
         <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">FEE TABLE</h2>
         <div style="text-align: center">宿泊料金表</div>
       </div>
-      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <nuxt-img src="/fee_table.jpg" width="1024" alt="top" style="width: 100%;object-fit: cover" />
+      <div class="grid col-12" style="max-width: 777px;padding: 0 1rem 2rem;">
+        <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
+      </div>
+    </div>
+    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 2rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        <h2 style="text-align: center;margin-top: 2rem">ATTENTIONS</h2>
+        <div style="text-align: center">諸注意</div>
+      </div>
+      <div class="grid col-12 room-div" style="padding: 0 1rem;max-width: 777px;">
+        <div class="grid col-12">
+          <h3 class="col-12" style="margin-bottom: 1rem">キャンセル料について</h3>
+          <div class="width-80-pc" style="padding: 0 2rem">
+            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <tbody>
+                <tr>
+                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    7日前 ~ 3日前
+                  </th>
+                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    宿泊料金の10%
+                  </td>
+                </tr>
+                <tr>
+                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    2日前
+                  </th>
+                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    宿泊料金の50%
+                  </td>
+                </tr>
+                <tr>
+                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    前日
+                  </th>
+                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    宿泊料金の80%
+                  </td>
+                </tr>
+                <tr>
+                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    当日
+                  </th>
+                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    宿泊料金の100%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3 class="col-12" style="margin: 3rem 0 1rem">宿泊について</h3>
+          <div>
+            <li>３歳まで添い寝可</li><br>
+            <li>小学生以下半額</li>
+          </div>
+          <h3 class="col-12" style="margin: 3rem 0 1rem">ご利用のお願い</h3>
+          <li>古い建物をリノベーションしたおり、音が響きやすいため、他のお客様へ
+          ご配慮していただきながら、ごゆっくりお過ごしくださいませ。</li><br>
+          <li>ベッドリネンのご交換は3泊目以降から、ご希望の場合はお申し付けくださいませ。</li>
+        </div>
       </div>
     </div>
   </div>
@@ -221,7 +279,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.width-80-pc{
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
 
 
@@ -231,6 +293,9 @@ export default {
 }
 
 @media screen and (min-width: 769px) {
+  .width-80-pc{
+    width: 80%;
+  }
 
 }
 

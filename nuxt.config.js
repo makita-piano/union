@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'La Union 福島（ラウニオン） | 福島市・ゲストハウス・カフェ',
+    title: 'La Union 福島（ラウニオン） | 福島市・カフェ・ゲストハウス／ホステル',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

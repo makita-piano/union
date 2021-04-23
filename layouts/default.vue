@@ -13,9 +13,6 @@
 <script>
 
   export default {
-    mounted() {
-      this.$store.state.pc = (window.innerWidth > 768)
-    },
     computed: {
       currentPageForCanonical() {
         return this.$route.path.slice(1)
