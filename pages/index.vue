@@ -24,15 +24,12 @@
     </div>
     <div class="col-12">
       <div class="top-txt">
-        <p class="min-width-768">スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として<br class="display-none-mobile">
-お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています。<br>
+        <p class="min-width-768 padding-0-05-pc">スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として<br class="display-none-mobile">お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています。<br>
 <br>
 築約50年、使われなくなって10年以上経っていたビルをセルフリノベーションで仕立てました。<br>
-福島のまちのど真ん中から、まちの移り変わりを見届けてきた建物だからこそ持っている<br class="display-none-mobile">
-味わいのある床や、どっしりと趣のある配電盤など残せるものはできる限り残しています。<br>
-古い建物なので少しだけご不便をおかけしてしまうところもあるかもしれませんが、<br class="display-none-mobile">
-その分、仲間が集い、語り合える広い空間があります。<br>
-まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる余白をぜひお楽しみくださいませ。</p>
+福島のまちのど真ん中から、まちの移り変わりを見届けてきた建物だからこそ持っている<br class="display-none-mobile">味わいのある床や、どっしりと趣のある配電盤など残せるものはできる限り残しています。<br>
+古い建物なので少しだけご不便をおかけしてしまうところもあるかもしれませんが、<br class="display-none-mobile">その分、仲間が集い、語り合える広い空間があります。<br>
+まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる<br class="display-none-mobile">余白をぜひお楽しみくださいませ。</p>
       </div>
     </div>
     <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 2rem">
@@ -357,29 +354,6 @@ export default {
 .top-txt {
   padding: 1rem;
 }
-.top-txt h2 {
-  color: #1E1F21;
-  font-weight: 700;
-  letter-spacing: .8px;
-  line-height: 1.63;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.top-txt div {
-  color: #877B61;
-  font-family: TTNorms-Medium,sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: .65px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.top-txt p {
-  color: #53565A;
-  line-height: 2.3;
-}
 
 
 .top-list ul {
@@ -489,8 +463,11 @@ export default {
     padding: 25px 20px 20px;
     transition: .2s ease;
   }
-  .room-div{
+  .room-div {
     padding: 0 0rem 2rem;
+  }
+  .padding-0-05-pc {
+    padding: 0 .5rem;
   }
 }
 </style>

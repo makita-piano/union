@@ -52,6 +52,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   word-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 * , *::before , *::after {
