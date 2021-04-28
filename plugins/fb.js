@@ -23,8 +23,8 @@ vueFb.install = function install(Vue, options) {
 }
 
 Vue.use(vueFb, {
-  appId: 103874421592721,
+  appId: 109595761276284,
   autoLogAppEvents: true,
   xfbml: true, // ここをfalseにすると任意のタイミングでParseすることができます (表示)
-  version:  'v10.0'
+  version:  'v3.3'
 })
