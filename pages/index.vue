@@ -32,7 +32,7 @@
 まちの方も、ご旅行の方も、老若男女、多くの方がそれぞれ思い思いの使い方ができる<br class="display-none-mobile">余白をぜひお楽しみくださいませ。</p>
       </div>
     </div>
-    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 2rem">
+    <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 style="text-align: center;margin-top: 2rem">STAY</h2>
         <div style="text-align: center">客室</div>

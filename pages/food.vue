@@ -7,7 +7,7 @@
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">CONCEPT</h2>
-        <div style="text-align: center;letter-spacing: .5rem;">コンセプト</div>
+        <div style="text-align: center">コンセプト</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-6_sm-12">
@@ -23,9 +23,9 @@
       </div>
     </div>
     <div class="grid-center col-12">
-      <div style="margin-bottom: 2rem">
-        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">OPENING HOUR</h2>
-        <div style="text-align: center;letter-spacing: .5rem">営業時間</div>
+      <div class="grid col-12" style="margin-bottom: 2rem">
+        <h2 class="ttl-h2 col-12" style="text-align: center;margin-top: 2rem">OPENING HOUR</h2>
+        <div class="col-12" style="text-align: center">営業時間</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
@@ -49,7 +49,7 @@
     <div class="grid-center col-12" style="margin-top: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">MENU</h2>
-        <div style="text-align: center;letter-spacing: .5rem;">メニュー</div>
+        <div style="text-align: center">メニュー</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12">
