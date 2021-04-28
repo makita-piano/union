@@ -1,9 +1,5 @@
 <template>
   <div class="page-contents">
-    <div class="fb-customerchat"
-      :page_id="109595761276284"
-      theme_color="#0084ff">
-    </div>
     <Header />
     <div>
       <transition name="router-transition">
