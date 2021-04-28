@@ -16,7 +16,8 @@
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "swiper": "^5.4.5",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-fb-customer-chat": "^0.2.0"
   },
   "devDependencies": {
     "@nuxt/image": "^0.4.1",
