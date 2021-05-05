@@ -180,7 +180,7 @@
         <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">FEE TABLE</h2>
         <div style="text-align: center">宿泊料金表</div>
       </div>
-      <div class="grid col-12" style="max-width: 777px;padding: 0 1rem 2rem;">
+      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
         <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
       </div>
     </div>
