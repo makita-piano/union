@@ -183,6 +183,60 @@
       <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
         <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
       </div>
+      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+        <h3 class="col-12" style="margin-bottom: 1rem">チェックインオプション</h3>
+        <div class="width-80-pc" style="padding: 0 1rem">
+          <div class="col-12" style="margin: .5rem 0">
+            ※事前のご連絡が必要です。
+          </div>
+          <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+            <tbody>
+              <tr>
+                <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  アーリーチェックイン
+                </th>
+              </tr>
+              <tr>
+                <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  5:00 ~ 9:00
+                </td>
+                <td colspan="1"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  + 1泊分
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  夜行バス等にて早朝到着された方にオススメのプランです。<br>
+                  ※ 前日に空室がある場合のみ<br>
+                  ※ 就寝されている方がいらっしゃいますので、ご配慮をお願いします。ドライヤー利用は7:00より可能です。
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
+            <tbody>
+              <tr>
+                <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レイトチェックイン
+                </th>
+              </tr>
+              <tr>
+                <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  23:30 ~ 25:00
+                </td>
+                <td colspan="1"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  + 1,000円
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  終電を逃した方のご宿泊も歓迎しております。
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
     <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 2rem">
       <div class="col-12" style="margin-bottom: 2rem">
@@ -192,7 +246,7 @@
       <div class="grid col-12 room-div" style="padding: 0 1rem;max-width: 777px;">
         <div class="grid col-12">
           <h3 class="col-12" style="margin-bottom: 1rem">キャンセル料について</h3>
-          <div class="width-80-pc" style="padding: 0 2rem">
+          <div class="width-80-pc" style="padding: 0 1rem">
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
               <tbody>
                 <tr>
