@@ -54,24 +54,16 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12" style="padding: .5rem">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="" style="width: 100%" />
+          <img v-if="foodimg1 != undefined" :src="foodimg1.img.url" style="width: 100%" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem"><!--『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。--></p>
         </div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/food2.jpg" width="100%" alt="" style="width: 100%" />
-          トルコ風坊さんの気絶
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/food3.jpg" width="100%" alt="" style="width: 100%" />
-          ロモサルタード
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
-          開発中
+        <div v-for="e in foodimgs" v-bind:key="e.title" class="col-3_sm-6" style="padding: .5rem">
+          <img :src="e.img.url" style="width: 100%">
+          {{ e.name }}
         </div>
       </div>
     </div>
@@ -88,6 +80,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   head() {
     return {
@@ -96,6 +90,24 @@ export default {
         { hid: 'og:title', property: 'og:title', content: 'FOOD｜La Union 福島（ラウニオン）' }
       ]
     }
+  },
+  data () {
+    return {
+      foodimg1: undefined,
+      foodimgs: undefined,
+      conceptimg: undefined,
+    }
+  },
+  created(){
+    axios
+      .get(process.env.VUE_APP_MICROCMS_URL + "food-imgs",{
+        headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+        data: {}
+    })
+      .then(v => {
+        this.foodimgs = v.data.contents.slice(0, -1);
+        this.foodimg1 = v.data.contents.slice(-1)[0];
+    });
   },
 }
 </script>
