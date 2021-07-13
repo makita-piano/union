@@ -7,13 +7,13 @@
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 777px;padding: 1rem;">
         <p>
-          様々なイベントでお使いいただけるプランをご用意しております。こちらに記載のないご要望も臨機に対応いたしますので、お気軽にご相談ください。
+          様々なイベントでお使いいただけるプランをご用意しております。こちらに記載のないご要望も臨機応変に対応いたしますので、お気軽にご相談ください。
         </p>
       </div>
     </div>
     <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">CAFE貸切</h2>
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">CAFE貸切</h3>
       </div>
       <div class="grid col-12 plan-div" style="padding: 0 1rem">
         <p>
@@ -77,7 +77,7 @@
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                プロジェクター・レーザーポインター・パーテーション貸出
+                プロジェクター・レーザーポインター貸出
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                 無料
@@ -110,7 +110,7 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">STAY貸切</h2>
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">STAY貸切</h3>
       </div>
       <div class="grid col-12 plan-div" style="padding: 0 1rem">
         <p>個室4室、ドミトリー1室(最大8名)の貸切プランです。
@@ -120,7 +120,7 @@
     </div>
     <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">CAFE&STAY貸切</h2>
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">CAFE&STAY貸切</h3>
       </div>
       <div class="grid col-12 plan-div" style="padding: 0 1rem">
         <p>当館ご利用スペース全ての貸切プランです。ご相談に応じて、お食事の準備をいたします。</p>
@@ -129,12 +129,14 @@
     </div>
     <div class="grid-center col-12" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h2 style="text-align: center;margin-top: 2rem">その他</h2>
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">その他</h3>
       </div>
-      <p>
-        ・キッチンスペースのご利用は、安全上の観点から原則禁止とさせていただきます。料理イベント等、ご相談には応じます。<br>
-        ・ご食事がメインのイベントの場合、食材の持ち込みはご相談ください。
-      </p>
+      <div class="grid col-12 plan-div" style="padding: 0 1rem">
+        <p>
+          ・キッチンスペースのご利用は、安全上の観点から原則禁止とさせていただきます。料理イベント等、ご相談には応じます。<br>
+          ・ご食事がメインのイベントの場合、食材の持ち込みはご相談ください。
+        </p>
+      </div>
     </div>
   </div>
 </template>
