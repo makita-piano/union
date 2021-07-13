@@ -10,8 +10,9 @@
         <div style="text-align: center">コンセプト</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="col-6_sm-12">
+        <div class="col-6_sm-12" style="margin-bottom: 1rem">
           <nuxt-img src="/cafe2.jpg" width="704" style="width: 100%" alt="top" />
+          <span>(カウンター9席、テーブル4台x2席、窓側12席、計29席)</span>
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 0 1rem">かつて世界を自転車で旅をしたオーナーが現地で食べ飲んだ世界のお料理とドリンクをご用意しております。<br>
@@ -52,8 +53,8 @@
         <div style="text-align: center">メニュー</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="grid col-6_sm-12">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="top" />
+        <div class="grid col-6_sm-12" style="padding: .5rem">
+          <nuxt-img src="/menu1.jpg" width="100%" alt="" style="width: 100%" />
         </div>
         <div class="grid col-6_sm-12">
           <p style="padding: 2rem"><!--『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。--></p>
@@ -61,17 +62,26 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/food2.jpg" width="100%" alt="top" />
+          <nuxt-img src="/food2.jpg" width="100%" alt="" style="width: 100%" />
           トルコ風坊さんの気絶
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/food3.jpg" width="100%" alt="" />
+          <nuxt-img src="/food3.jpg" width="100%" alt="" style="width: 100%" />
           ロモサルタード
         </div>
         <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;" />
+          <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
           開発中
         </div>
+      </div>
+    </div>
+    <div class="grid-center col-12" style="margin-top: 2rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        <h2 class="ttl-h2" style="text-align: center;margin-top: 2rem">OTHER</h2>
+        <div style="text-align: center">その他</div>
+      </div>
+      <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+        ※宿泊の方の2F飲食ご利用時間は、CAFEの利用時間と同じです。
       </div>
     </div>
   </div>

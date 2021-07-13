@@ -20,6 +20,11 @@
               </NuxtLink>
             </li>
             <li class="col-middle">
+              <NuxtLink to="/plan">
+                PLAN
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
               <NuxtLink to="/unicoin">
                 UNICOIN
               </NuxtLink>
@@ -50,6 +55,9 @@
             </li>
             <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/food">FOOD</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/plan">PLAN</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/unicoin">UNICOIN</NuxtLink>

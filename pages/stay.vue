@@ -200,12 +200,12 @@
                 <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   5:00 ~ 9:00
                 </td>
-                <td colspan="1"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   + 1泊分
                 </td>
               </tr>
               <tr>
-                <td colspan="3"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   夜行バス等にて早朝到着された方にオススメのプランです。<br>
                   ※ 前日に空室がある場合のみ<br>
                   ※ 就寝されている方がいらっしゃいますので、ご配慮をお願いします。ドライヤー利用は7:00より可能です。
@@ -224,17 +224,44 @@
                 <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   23:30 ~ 25:00
                 </td>
-                <td colspan="1"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   + 1,000円
                 </td>
               </tr>
               <tr>
-                <td colspan="3"　style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                   終電を逃した方のご宿泊も歓迎しております。
                 </td>
               </tr>
             </tbody>
           </table>
+        </div>
+      </div>
+      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+        <h3 class="col-12" style="margin-bottom: 1rem">朝食</h3>
+        <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+          <p>事前予約制。ご予約時、もしくはチェックイン時にお伝えください。</p>
+        </div>
+        <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+          <div class="grid col-6_sm-12" style="padding: .5rem">
+            <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
+            画像準備中
+          </div>
+          <div class="col-6_sm-12" style="padding: .5rem">
+            <h3>メニュー</h3>
+          ・フレンチートーストorレシュティ<br>
+          ・コーヒー<br>
+          ・紅茶<br>
+          ・サラダ
+            <h3 style="margin-top: 1rem">料金</h3>
+            660円
+          </div>
+          <div class="grid col-12">
+            <div class="col-3_sm-6" style="padding: .5rem">
+              <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
+              画像準備中
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -286,9 +313,10 @@
           </div>
           <h3 class="col-12" style="margin: 3rem 0 1rem">宿泊について</h3>
           <div>
-            <li>３歳まで添い寝可</li><br>
-            <li>小学生以下半額</li><br>
-            <li>終電を逃した方のご宿泊も歓迎しております。時間外のご利用についてはご連絡ください。24:00以降のレイトチェクイン はドミトリー+500円、個室+1000円申し受けます。</li>
+            <li>小学生未満まで添い寝可</li><br>
+            <li>館内は全て禁煙です。喫煙が疑われた場合はお部屋のクリーニング代として３万円と交換に伴う実費を徴収することもございます。</li>
+            <li>館内設備の破損、貸出品の紛失等は実費をご請求いたします。</li>
+            <li>チェックアウト時間を超えてのご滞在は１時間につき1,000円、３時間以上の場合は一泊分をお支払いいただきます。</li>
           </div>
           <h3 class="col-12" style="margin: 3rem 0 1rem">ご利用のお願い</h3>
           <li>古い建物をリノベーションしたおり、音が響きやすいため、他のお客様へ
