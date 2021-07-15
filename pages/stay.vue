@@ -368,7 +368,7 @@ export default {
         data: {}
     })
       .then(v => {
-        console.log(v.data.contents);
+        console.log(process.env.VUE_APP_MICROCMS_URL);
         this.roomimgs       = v.data.contents.filter((v) => v.type[0] === "個室");
         this.domitryimgs    = v.data.contents.filter((v) => v.type[0] === "ドミトリー");
         this.facilitiesimgs = v.data.contents.filter((v) => v.type[0] === "共通設備");
