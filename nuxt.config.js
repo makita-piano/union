@@ -46,8 +46,7 @@ export default {
   buildModules: [
     '@nuxtjs/google-fonts',
     '@nuxt/image',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/sitemap'
   ],
 
   googleFonts: {
@@ -84,4 +83,8 @@ export default {
       })
     }
   },
+  publicRuntimeConfig: {
+    VUE_APP_MICROCMS_URL: process.env.VUE_APP_MICROCMS_URL,
+    VUE_APP_MICROCMS_KEY: process.env.VUE_APP_MICROCMS_KEY
+  }
 }

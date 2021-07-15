@@ -100,8 +100,8 @@ export default {
   },
   created(){
     axios
-      .get(process.env.VUE_APP_MICROCMS_URL + "food-imgs",{
-        headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+      .get(this.$config.VUE_APP_MICROCMS_URL + "food-imgs",{
+        headers: { "X-API-KEY": this.$config.VUE_APP_MICROCMS_KEY},
         data: {}
     })
       .then(v => {
