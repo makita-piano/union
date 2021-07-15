@@ -71,31 +71,6 @@
         </div>
       </div>
     </div>
-    <!--<div class="grid col-12 top-list" style="margin-top: 2rem">
-      <ul class="js-moreCnt">
-        <li>
-        <a href="/">
-        <div class="top-list-date">2020.12.14</div>
-        <div class="top-list-category">お知らせ</div>
-        <h3>レストランの営業時間短縮について</h3>
-        </a>
-        </li>
-        <li>
-        <a href="/">
-        <div class="p-top_newsList_date">2020.11.12</div>
-        <div class="p-top_newsList_category">お知らせ</div>
-        <h3>レストランの臨時休業について</h3>
-        </a>
-        </li>
-        <li>
-        <a href="/">
-        <div class="p-top_newsList_date">2020.10.26</div>
-        <div class="p-top_newsList_category">お知らせ</div>
-        <h3>「都内観光促進事業」（もっと楽しもう！TokyoTokyo）について</h3>
-        </a>
-        </li>
-        </ul>
-    </div>-->
     <div class="grid-center col-12" style="margin-top: 5rem;background: rgb(238, 238, 238 , 0.5)">
       <div class="grid col-12" style="margin-bottom: 2rem;padding: 1rem">
         <h2 class="col-12 ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
