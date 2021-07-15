@@ -92,7 +92,7 @@
           </tbody>
         </table>
         <div class="col-12">
-          <p style="margin: .5rem 0">例：13:00~18:00、20人での貸切の場合<br>
+          <p style="margin: .5rem 0">例：13:00～18:00、20人での貸切の場合<br>
           基本料：6,000円 x 5h<br>
           時間帯割引：-1,000円 x 4h<br>
           ドリンク代：300円 x 20人<br>
