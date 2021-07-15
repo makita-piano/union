@@ -46,7 +46,8 @@ export default {
   buildModules: [
     '@nuxtjs/google-fonts',
     '@nuxt/image',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/dotenv'
   ],
 
   googleFonts: {
@@ -59,7 +60,6 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/dotenv',
     '@nuxtjs/axios',
     '@nuxtjs/google-gtag'
   ],
