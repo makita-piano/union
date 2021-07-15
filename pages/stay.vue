@@ -53,9 +53,7 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">
             <nuxt-img src="/room3.jpg" width="704" alt="top" style="width: 100%;object-fit: cover" />
@@ -97,6 +95,12 @@
             </div>
           </div>
         </div>
+        <div class="grid col-12" style="max-width: 1024px;padding: .5rem;background: rgb(238, 238, 238 , 0.5);">
+          <div v-for="e in roomimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
+            <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+            {{ e.name }}
+          </div>
+        </div>
       </div>
 
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
@@ -108,7 +112,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">ドミトリー</h3>
             </div>
-            <p style="padding: 2rem">必要最低限の電源やスマホのワイヤレス充電をご利用いただけます。タオル・歯ブラシ付き。　</p>
+            <p style="padding: 2rem">必要最低限の電源やデスクライト、usb充電器(ケーブルはご用意ください)、スマホのワイヤレス充電をご利用いただけます。タオル・歯ブラシ付き。　</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
@@ -141,6 +145,12 @@
             </div>
           </div>
         </div>
+        <div class="grid col-12" style="max-width: 1024px;padding: .5rem;background: rgb(238, 238, 238 , 0.5);">
+          <div v-for="e in domitryimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
+            <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+            {{ e.name }}
+          </div>
+        </div>
       </div>
     </div>
     <div class="grid-center col-12" style="margin-top: 2rem">
@@ -149,29 +159,9 @@
         <div style="text-align: center">客室共通設備</div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/shower.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          シャワー
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/toilet1.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          トイレ①
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/toilet2.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          トイレ②
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/wash_room.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          ウォッシュルーム
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/powder_room.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          パウダールーム
-        </div>
-        <div class="col-3_sm-6" style="padding: .5rem">
-          <nuxt-img src="/amenities.jpg" width="352" alt="top" style="width: 100%;object-fit: cover" />
-          共有アメニティ
+        <div v-for="e in facilitiesimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
+          <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+          {{ e.name }}
         </div>
       </div>
     </div>
@@ -180,86 +170,92 @@
         <h2 class="ttl-h2 font-size-1-8-mobile" style="text-align: center;margin-top: 2rem">FEE TABLE</h2>
         <div style="text-align: center">宿泊料金表</div>
       </div>
-      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
-        <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
-      </div>
-      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
-        <h3 class="col-12" style="margin-bottom: 1rem">チェックインオプション</h3>
-        <div class="width-80-pc" style="padding: 0 1rem">
-          <div class="col-12" style="margin: .5rem 0">
-            ※事前のご連絡が必要です。
-          </div>
-          <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
-            <tbody>
-              <tr>
-                <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  アーリーチェックイン
-                </th>
-              </tr>
-              <tr>
-                <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  5:00 ~ 9:00
-                </td>
-                <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  + 1泊分
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  夜行バス等にて早朝到着された方にオススメのプランです。<br>
-                  ※ 前日に空室がある場合のみ<br>
-                  ※ 就寝されている方がいらっしゃいますので、ご配慮をお願いします。ドライヤー利用は7:00より可能です。
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
-            <tbody>
-              <tr>
-                <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  レイトチェックイン
-                </th>
-              </tr>
-              <tr>
-                <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  23:30 ~ 25:00
-                </td>
-                <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  + 1,000円
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                  終電を逃した方のご宿泊も歓迎しております。
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="grid-center col-12">
+        <div class="col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+          <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
         </div>
       </div>
-      <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
-        <h3 class="col-12" style="margin-bottom: 1rem">朝食</h3>
-        <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-          <p>事前予約制。ご予約時、もしくはチェックイン時にお伝えください。</p>
+      <div class="grid-center col-12">
+        <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+          <h3 class="col-12" style="margin-bottom: 1rem">チェックインオプション</h3>
+          <div class="width-80-pc" style="padding: 0 1rem">
+            <div class="col-12" style="margin: .5rem 0">
+              ※事前のご連絡が必要です。
+            </div>
+            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <tbody>
+                <tr>
+                  <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    アーリーチェックイン
+                  </th>
+                </tr>
+                <tr>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    5:00 ~ 9:00
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    + 1泊分
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    夜行バス等にて早朝到着された方にオススメのプランです。<br>
+                    ※ 前日に空室がある場合のみ<br>
+                    ※ 就寝されている方がいらっしゃいますので、ご配慮をお願いします。ドライヤー利用は7:00より可能です。
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
+              <tbody>
+                <tr>
+                  <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    レイトチェックイン
+                  </th>
+                </tr>
+                <tr>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    23:30 ~ 25:00
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    + 1,000円
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    終電を逃した方のご宿泊も歓迎しております。
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-          <div class="grid col-6_sm-12" style="padding: .5rem">
-            <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
-            画像準備中
+      </div>
+      <div class="grid-center col-12">
+        <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+          <h3 class="col-12" style="margin-bottom: 1rem">朝食</h3>
+          <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+            <p>事前予約制。ご予約時、もしくはチェックイン時にお伝えください。</p>
           </div>
-          <div class="col-6_sm-12" style="padding: .5rem">
-            <h3>メニュー</h3>
-          ・フレンチートーストorレシュティ<br>
-          ・コーヒー<br>
-          ・紅茶<br>
-          ・サラダ
-            <h3 style="margin-top: 1rem">料金</h3>
-            660円
-          </div>
-          <div class="grid col-12">
-            <div class="col-3_sm-6" style="padding: .5rem">
-              <nuxt-img src="/menu1.jpg" width="100%" alt="top" style="filter: grayscale(100%);opacity: 0.5;width: 100%" />
-              画像準備中
+          <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
+            <div v-if="breakfastimg1 != undefined" class="grid col-6_sm-12" style="padding: .5rem">
+              <img :src="breakfastimg1.img.url" width="100%" alt="top" style="width: 100%;object-fit: cover" />
+              {{ breakfastimg1.name }}
+            </div>
+            <div class="col-6_sm-12" style="padding: .5rem">
+              <h3>メニュー</h3>
+            ・フレンチートーストorレシュティ<br>
+            ・コーヒー<br>
+            ・紅茶<br>
+            ・サラダ
+              <h3 style="margin-top: 1rem">料金</h3>
+              660円
+            </div>
+            <div class="grid col-12">
+              <div v-for="e in breakfastimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
+                <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+                {{ e.name }}
+              </div>
             </div>
           </div>
         </div>
@@ -331,6 +327,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   head() {
     return {
@@ -356,10 +354,26 @@ export default {
         loop: true,
         effect: 'fade',
       },
+      roomimgs:       undefined,
+      domitryimgs:    undefined,
+      facilitiesimgs: undefined,
+      breakfastimgs:  undefined,
+      breakfastimg1:  undefined,
     }
   },
-  mounted() {
-    // console.log(process.env.KEY)
+  created(){
+    axios
+      .get(process.env.VUE_APP_MICROCMS_URL + "stay-imgs",{
+        headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+        data: {}
+    })
+      .then(v => {
+        this.roomimgs       = v.data.contents.filter((v) => v.type[0] === "個室");
+        this.domitryimgs    = v.data.contents.filter((v) => v.type[0] === "ドミトリー");
+        this.facilitiesimgs = v.data.contents.filter((v) => v.type[0] === "共通設備");
+        this.breakfastimgs  = v.data.contents.filter((v) => v.type[0] === "朝食").slice(0, -1);
+        this.breakfastimg1  = v.data.contents.filter((v) => v.type[0] === "朝食").slice(-1)[0];
+    });
   },
 }
 </script>

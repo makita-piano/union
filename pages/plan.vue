@@ -15,37 +15,35 @@
       <div class="col-12" style="margin-bottom: 2rem">
         <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">CAFE貸切</h3>
       </div>
-      <div class="grid col-12 plan-div" style="padding: 0 1rem">
+      <div class="col-12 plan-div" style="padding: 0 1rem">
         <p>
           飲食スペースの貸切プランです。忘年会・新年会、歓送迎会、結婚式の２次会などの各種イベントや、
           お食事注文のない講演会・セミナーなどにもご利用いただけます。<br>
           お食事をご注文の場合は割引なども可能です。
         </p>
-        <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
-          <tbody>
-            <tr>
-              <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                基本料金
-              </th>
-            </tr>
-            <tr>
-              <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
-                6,000円／h + 300円／人(1ドリンク代)
-              </td>
-            </tr>
-          </tbody>
+        <table style="border-collapse: collapse;width: 100%">
+          <tr>
+            <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse">
+              基本料金
+            </th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+              6,000円／h + 300円／人(1ドリンク代)
+            </td>
+          </tr>
         </table>
 
-        <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
+        <table style="border-collapse: collapse;width: 100%;margin-top: 1rem">
           <tbody>
             <tr>
               <th colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                オプション料金
+                オプション料金(目安)
               </th>
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                時間帯割引(14:00 ~ 18:00)
+                時間帯割引<br class="display-none-pc">(14:00 ~ 18:00)
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                 - 1,000円／h
@@ -53,7 +51,7 @@
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                席数割引(スペースの半分のみ使用)
+                席数割引<br class="display-none-pc">(使用席数が半分未満)
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                 - 1,000円／h
@@ -61,7 +59,7 @@
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                撤収時間サービス(4時間以上ご利用の場合)
+                撤収時間サービス<br class="display-none-pc">(4時間以上ご利用の場合)
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                 利用時間後の30分
@@ -77,7 +75,7 @@
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                プロジェクター・レーザーポインター貸出
+                プロジェクター・<br class="display-none-pc">レーザーポインター貸出
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                 無料
@@ -94,13 +92,13 @@
           </tbody>
         </table>
         <div class="col-12">
-          <p>例：13:00 ~ 18:00、20人での貸し切りの場合<br>
-          基本料：6,000円 x 5<br>
-          時間帯割引：-1,000円 x 4<br>
-          ドリンク代：300円 x 20<br>
+          <p style="margin: .5rem 0">例：13:00~18:00、20人での貸切の場合<br>
+          基本料：6,000円 x 5h<br>
+          時間帯割引：-1,000円 x 4h<br>
+          ドリンク代：300円 x 20人<br>
           総計の目安：32,000円
           </p>
-          <p>
+          <p style="margin: .5rem 0">
             ※ご利用用途に応じて、料金の相談も可能ですのでお問合せください。<br>
             ※CAFEの通常営業時間以外のご利用も相談に応じます。<br>
             ※宿泊者の方もいらっしゃる為、夜のご利用は22時までといたします。
@@ -120,7 +118,7 @@
     </div>
     <div class="grid-center col-12 bg-grey" style="margin-top: 5rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
-        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">CAFE&STAY貸切</h3>
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">CAFE＆STAY貸切</h3>
       </div>
       <div class="grid col-12 plan-div" style="padding: 0 1rem">
         <p>当館ご利用スペース全ての貸切プランです。ご相談に応じて、お食事の準備をいたします。</p>
@@ -128,6 +126,42 @@
       </div>
     </div>
     <div class="grid-center col-12" style="margin-top: 5rem;padding-bottom: 5rem">
+      <div class="col-12" style="margin-bottom: 2rem">
+        <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">仮眠室</h3>
+      </div>
+      <div class="col-12 plan-div" style="padding: 0 1rem">
+        <p style="margin-bottom: 1rem">ドミトリーの空き室を、休憩の為の仮眠室として貸出しております。</p>
+        <table style="border-collapse: collapse;width: 100%">
+          <tbody>
+            <tr>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                利用可能時間
+              </td>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                11時 ~ 18時
+              </td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                基本料金
+              </td>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                1,500円／3h
+              </td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                延長料金
+              </td>
+              <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
+                500円／1h
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="grid-center col-12 bg-grey" style="margin-top: 2rem;padding-bottom: 5rem">
       <div class="col-12" style="margin-bottom: 2rem">
         <h3 style="text-align: center;margin-top: 2rem;font-size: 2rem;color: #333">その他</h3>
       </div>
