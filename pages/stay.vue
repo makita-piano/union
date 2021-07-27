@@ -204,6 +204,20 @@
                     ※ 就寝されている方がいらっしゃいますので、ご配慮をお願いします。ドライヤー利用は7:00より可能です。
                   </td>
                 </tr>
+                <tr>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    13:00 ~ 16:00
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    + 1時間ごとに1,000円
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    お早目のチェックインにも対応いたします。<br>
+                    不在の場合がございますので、事前にご連絡ください
+                  </td>
+                </tr>
               </tbody>
             </table>
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
