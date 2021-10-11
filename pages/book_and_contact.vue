@@ -5,23 +5,25 @@
       <h1 class="header-img-h1">CONTACT</h1>
     </div>
     <div class="col-12" style="margin: 0 0 2rem 0;text-align: center">
-      <div class="grid-center col-12">
+      <div class="grid-center min-width-768">
         <div class="col-12" style="margin-bottom: 2rem">
           <h2 style="text-align: center;margin-top: 2rem">BOOK</h2>
           <div style="text-align: center">宿泊予約</div>
         </div>
-        <div class="grid-center min-width-768">
-          <div class="col-6_sm-12" style=";padding: 1rem">
+        <div class="grid-center">
+          <div class="col-6_sm-12" style="padding: 1rem">
             <a href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
               <nuxt-img src="/kenminwari.png" width="736" style="width: 100%" alt="top" loading="lazy" />
             </a>
           </div>
         </div>
-        <!--
-        <span class="reserve_btn">
-          宿泊予約する
-        </span>
-        -->
+        <div class="grid min-width-768" style="padding: 0 1rem">
+          <a class="col-6_sm-12 reserve_btn" href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
+            <div style="padding: 1.5rem">
+              通常予約
+            </div>
+          </a>
+        </div>
       </div>
     </div>
     <div class="col-12 bg-grey" style="margin: 5rem 1.5rem 0 2rem 0;text-align: center;padding-top: 3rem">
@@ -43,7 +45,6 @@
   font-weight: bold;
   letter-spacing: .1rem;
   margin: auto;
-  padding: 1.5rem;
   position: relative;
   text-align: center;
   text-decoration: none;
