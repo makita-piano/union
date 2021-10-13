@@ -16,7 +16,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'La Union 福島（ラウニオン）' },
       { hid: 'og:description', property: 'og:description', content: 'スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています' },
-      { hid: 'og:image', property: 'og:image', content: '/union.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://launion.page/union.png' },
       { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
