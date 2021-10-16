@@ -1,21 +1,20 @@
 <template>
-  <div class="grid col-12">
+  <div class="grid">
     <div class="col-12">
       <client-only>
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide v-for="n in 5" :key="n">
-            <nuxt-img class="header-img" width="1920" :src="'/top' + n + '.jpg'" alt="index-header-img" />
+            <nuxt-img class="header-img" width="1920" :src="'/top' + n + '.jpg'" alt="header-img" />
           </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </client-only>
     </div>
-
     <div class="col-12" style="padding: .5rem">
       <div class="grid-center min-width-768">
         <div class="col-12" style="padding: 1rem;text-align: center">
           <a href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
-            <nuxt-img src="/kenminwari.png" width="736" class='kenminwari' alt="top" loading="lazy" />
+            <nuxt-img src="/kenminwari.png" width="736" class='kenminwari' alt="kenminwari" loading="lazy" />
           </a>
         </div>
         <div class="col-12" style="margin-top: 1rem">
@@ -434,12 +433,11 @@ export default {
 }
 @media screen and (min-width: 769px) {
   .kenminwari {
-    width: 500px;
+    width: 250px;
   }
   .banner {
     width: 500px;
     padding: 2rem;
-    
   }
   .svg {
     height: 48px;

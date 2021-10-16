@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
   export default {
     computed: {
       currentPageForCanonical() {
@@ -39,20 +38,21 @@
 [class*='col-'] , [class^='col'] {
   padding: 0;
 }
+
 html {
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   color: #939597;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: 500;
-  margin: 0;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-  word-spacing: 1px;
   letter-spacing: 1px;
+  margin: 0;
+  word-spacing: 1px;
 }
 
 * , *::before , *::after {
@@ -139,6 +139,8 @@ body {
   }
 }
 
+
+/* animation */
 .router-transition-enter-active {
   animation: fadeIn .5s ease-in;
 }

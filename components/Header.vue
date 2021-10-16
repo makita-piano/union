@@ -35,8 +35,13 @@
               </NuxtLink>
             </li>
             <li class="col-middle">
-              <NuxtLink to="/book_and_contact">
-                BOOK<br>CONTACT
+              <NuxtLink to="/book">
+                BOOK
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/contact">
+                CONTACT
               </NuxtLink>
             </li>
           </ul>
@@ -66,7 +71,10 @@
               <NuxtLink to="/access">ACCESS</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
-              <NuxtLink to="/book_and_contact">BOOK&CONTACT</NuxtLink>
+              <NuxtLink to="/book">BOOK</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/contact">CONTACT</NuxtLink>
             </li>
           </ul>
         </transition>
