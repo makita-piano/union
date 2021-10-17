@@ -66,7 +66,7 @@ export default {
     return {
       title: "BOOK&CONTACT｜La Union 福島（ラウニオン）",
       meta: [
-        { hid: 'og:title', property: 'og:title', content: 'BOOK&CONTACT｜La Union 福島（ラウニオン）' }
+        { hid: 'og:title', property: 'og:title', content: 'CONTACT｜La Union 福島（ラウニオン）' }
       ]
     }
   },
