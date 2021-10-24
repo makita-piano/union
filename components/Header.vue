@@ -4,7 +4,7 @@
       <div class="grid display-none-mobile header-menu-pc">
         <div class="col-4">
           <NuxtLink to="/">
-            <nuxt-img src="/union.png" width="189px" height="120px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box" alt="union" />
+            <nuxt-img src="/union.png" width="378px" height="240px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box;width: 189px;height: 120px" alt="union" />
           </NuxtLink>
         </div>
         <div class="grid col-8">
@@ -50,7 +50,7 @@
       <nav class="grid menu-container display-none-pc">
         <div class="col" style="text-align: center">
           <NuxtLink to="/" id="home" style="z-index: 9999">
-            <nuxt-img src="/union.png" width="126px" height="80px" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;" alt="union" />
+            <nuxt-img src="/union.png" width="252px" height="160px" style="vertical-align: middle;box-sizing: content-box;height: 5rem;width: auto;margin: auto;text-align: center;width: 126px;height: 80px" alt="union" />
           </NuxtLink>
         </div>
         <transition name="trans_slide">
