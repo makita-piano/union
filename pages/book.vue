@@ -79,7 +79,7 @@
 export default {
   head() {
     return {
-      title: "BOOK&CONTACT｜La Union 福島（ラウニオン）",
+      title: "BOOK｜La Union 福島（ラウニオン）",
       meta: [
         { hid: 'og:title', property: 'og:title', content: 'BOOK｜La Union 福島（ラウニオン）' }
       ]
