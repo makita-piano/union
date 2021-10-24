@@ -89,11 +89,11 @@
         <h2 class="col-12 ttl-h2" style="text-align: center;margin-top: 2rem">NEWS</h2>
         <div class="col-12" style="text-align: center;margin-bottom: 2rem">お知らせ</div>
         <div class="col-8_md-6_sm-12 google-cal">
-          <iframe  src="https://calendar.google.com/calendar/embed?src=pf8bc69ocerhs347n01hfnrd8o%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          <iframe title='calendar' src="https://calendar.google.com/calendar/embed?src=pf8bc69ocerhs347n01hfnrd8o%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="col-4_md-6_sm-12">
           <div class="fbook">
-            <iframe  loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <iframe title='facebook' loading="lazy" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flaunifuku%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden;max-width: 90%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
           <div class="insta">
             <a href="https://www.instagram.com/launifuku/" target="_blank"  class="grid social" rel="noreferrer">
