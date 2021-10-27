@@ -47,7 +47,7 @@ export default {
 
   googleFonts: {
     families: {
-      'Noto+Sans+JP': true,
+      'Noto+Sans+JP': [500, 700],
       'Nunito': true,
     },
     display: 'swap'
