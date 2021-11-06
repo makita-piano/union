@@ -59,11 +59,28 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/google-gtag',
+    '@nuxtjs/pwa'
   ],
 
   'google-gtag': {
     id: 'G-LJQ1CYKTLQ',
+  },
+
+  /*
+  ** @nuxtjs/pwa Configuration
+  ** https://github.com/nuxt-community/pwa-module
+  */
+  manifest: {
+    name: 'launion',
+    lang: 'ja',
+    short_name: 'launion',
+    title: 'La Union 福島（ラウニオン） | 福島市・カフェ・ゲストハウス／ホステル',
+    'og:title': 'La Union 福島（ラウニオン） | 福島市・カフェ・ゲストハウス／ホステル',
+    description: 'スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています',
+    'og:description': 'スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています',
+    theme_color: '#02569B',
+    background_color: '#02569B'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
