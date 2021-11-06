@@ -6,7 +6,7 @@
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="col-12" style="max-width: 1024px">
-        <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=1T2L1AZCRcOFLUq8hwKgR2ydABnoUH0Xp&z=16" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+        <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=1T2L1AZCRcOFLUq8hwKgR2ydABnoUH0Xp&z=16" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="map"></iframe>
      </div>
       <div class="grid-center col-12">
         <div class="col-12" style="max-width: 1024px;padding: .5rem">
@@ -19,12 +19,12 @@
           <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank" style="margin-bottom: .5rem">Google Map</a>
 
           <div class="col-12" style="max-width: 1024px;margin-top: .5rem">
-            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!4v1615541317644!6m8!1m7!1sMMruKOz8ELlaOIbW42E1Sw!2m2!1d37.75485069909205!2d140.4660539402539!3f307.17032539471097!4f12.996080817972327!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!4v1615541317644!6m8!1m7!1sMMruKOz8ELlaOIbW42E1Sw!2m2!1d37.75485069909205!2d140.4660539402539!3f307.17032539471097!4f12.996080817972327!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="streetview"></iframe>
           </div>
 
           <h3 style="margin-top: 2rem">駐車場</h3>
           <div class="col-12" style="max-width: 1024px;margin-top: .5rem">
-            <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=15TELKttalvDvhngUP-1WaQb2UG_Tmb6h" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+            <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=15TELKttalvDvhngUP-1WaQb2UG_Tmb6h" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="parking"></iframe>
           </div>
           <span>
             駐車場はございません。近隣のコインパーキング（提携外）をご案内させて頂いております。

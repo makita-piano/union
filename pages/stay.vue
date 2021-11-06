@@ -137,7 +137,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      2,900円～
+                      2,980円～
                     </td>
                   </tr>
                 </tbody>

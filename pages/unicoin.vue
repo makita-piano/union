@@ -42,7 +42,7 @@ La Unionでは宿泊される方にウェルカムドリンクとして使える
         <div style="text-align: center">対象店舗</div>
       </div>
       <div class="col-12" style="max-width: 1024px">
-        <iframe class="map-iframe" src="https://www.google.com/maps/d/u/1/embed?mid=163WuP6T-NUkaG13gTFsbQOXmfISG2yWv&ll=37.75613383203582%2C140.46407889692142&z=16" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%"></iframe>
+        <iframe class="map-iframe" src="https://www.google.com/maps/d/u/1/embed?mid=163WuP6T-NUkaG13gTFsbQOXmfISG2yWv&ll=37.75613383203582%2C140.46407889692142&z=16" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="map"></iframe>
       </div>
       <div class="col-12" style="text-align: center">
         <a href="/FUKUSHIMA_WELCOME_MAP.pdf">【PDF】FUKUSHIMA_WELCOME_MAP<br class="display-none-pc">(更新：2020/03/09)</a>
