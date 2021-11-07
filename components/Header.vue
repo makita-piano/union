@@ -8,7 +8,7 @@
           </NuxtLink>
         </div>
         <div class="grid col-8">
-          <ul class="grid col-12">
+          <ul class="grid col-12" style="position: relative">
             <li class="col-middle">
               <NuxtLink to="/stay">
                 STAY
@@ -44,6 +44,12 @@
                 CONTACT
               </NuxtLink>
             </li>
+            <transition appear name="header-transition" :style="navLeftStyle">
+              <div v-if= 'navLeftSwitch == 1' class="header-nav-pointer" :style="navLeftStyle"></div>
+            </transition>
+            <transition name="header-transition" :style="navLeftStyle">
+              <div v-if= 'navLeftSwitch == 2' class="header-nav-pointer" :style="navLeftStyle"></div>
+            </transition>
           </ul>
         </div>
       </div>
@@ -99,14 +105,21 @@
 
     data() {
       return {
-        isMenuShow: false
+        isMenuShow: false,
+        navLeftBefore: -1000,
+        navLeftAfter: 30,
+        navLeftShow: 'none',
+        navLeftSwitch: 0,
       }
     },
-
     methods: {
       menuShow: function() {
         this.isMenuShow = !this.isMenuShow;
       }
+    },
+    mounted(){
+      this.navLeftAfter = 100 / 7 * this.$route.meta.index + 100 / 14
+      this.navLeftSwitch = 1
     },
     computed: {
       menuText: function() {
@@ -115,12 +128,32 @@
         }else{
           return "menu";
         }
+      },
+      navLeftStyle() {
+        return {
+          '--navLeftBefore': this.navLeftBefore + "%",
+          '--navLeftAfter': this.navLeftAfter + "%",
+          '--navLeftShow': this.$route.path == "/" ? 'none' : 'block'
+        }
       }
-    }
+    },
+    watch: {
+      $route(to, from) {
+        this.navLeftBefore = this.navLeftAfter
+        this.navLeftAfter = 100 / 7 * to.meta.index + 100 / 14
+        this.navLeftBefore = from.name == "index" ? this.navLeftAfter : this.navLeftBefore
+        this.navLeftSwitch = this.navLeftSwitch == 1 ? 2 : 1
+      },
+    },
   }
 </script>
 
 <style scoped>
+:root {
+  --navLeftBefore: 0%;
+  --navLeftAfter: 30%;
+  --navLeftShow: none;
+}
 .header-space {
   margin-top: 5rem;
 }
@@ -264,6 +297,17 @@ header a{
     border-right: none;
 }
 
+.header-nav-pointer {
+  left: calc(var(--navLeftAfter) - 5px);
+  display: var(--navLeftShow);
+  width: 5px;
+  height: 5px;
+  background: #03569B;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 10%;
+}
+
 @media screen and (max-width: 768px) {
     .menu-container .menu{
         width: 100%;
@@ -284,5 +328,25 @@ header a{
       position: fixed;
       top: 0;
     }
+}
+
+/* animation */
+.header-transition-enter-active {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    display: var(--navLeftShow);
+    left: calc(var(--navLeftBefore) - 5px);
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    display: var(--navLeftShow);
+    left: calc(var(--navLeftAfter) - 5px);
+    transform: rotate(45deg);
+  }
 }
 </style>

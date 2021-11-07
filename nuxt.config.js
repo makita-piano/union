@@ -92,6 +92,31 @@ export default {
   },
   router: {
     extendRoutes (routes, resolve) {
+      routes.forEach(route => {
+        switch (route.name){
+          case 'stay':
+            route.meta = {index: 0}
+            break
+          case 'food':
+            route.meta = {index: 1}
+            break
+          case 'plan':
+            route.meta = {index: 2}
+            break
+          case 'unicoin':
+            route.meta = {index: 3}
+            break
+          case 'access':
+            route.meta = {index: 4}
+            break
+          case 'book':
+            route.meta = {index: 5}
+            break
+          case 'contact':
+            route.meta = {index: 6}
+            break
+        }
+      })
       routes.push({
         name: '404error',
         path: '*',

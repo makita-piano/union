@@ -15,7 +15,7 @@
     computed: {
       currentPageForCanonical() {
         return this.$route.path.slice(1)
-      }
+      },
     },
     head() {
       return {
@@ -26,7 +26,7 @@
           }
         ]
       }
-    }
+    },
   }
 </script>
 
@@ -152,18 +152,6 @@ body {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-.opening-enter-active {
-  animation: fadeIns 2s ease-out;
-}
-@keyframes fadeIns {
-  from {
-    opacity: .3;
-  }
-  to {
-    opacity: 1;
   }
 }
 </style>
