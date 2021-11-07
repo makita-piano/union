@@ -114,6 +114,19 @@ body {
   background: rgb(238, 238, 238 , .5);
 }
 
+/* semantic */
+.center-align {
+  text-align: center;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 769px) {
   .display-none-pc {
     display: none !important;
