@@ -164,9 +164,9 @@ export default {
   left: 60%;
   letter-spacing: .3rem;
   position: absolute;
-  text-align: center;
   top: 50%;
   transform: translate(-10%, -50%) skewY(-3deg);
+  width: 150px;
 }
 .follow_me::before {
   animation: flicker 3s linear infinite;
