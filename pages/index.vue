@@ -12,7 +12,7 @@
     </div>
     <div class="col-12" style="padding: .5rem">
       <div class="grid-center min-width-768">
-        <div class="col-12 center-align" style="padding: 1rem">
+        <div class="col-12 center-align">
           <a href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" rel="noreferrer">
             <nuxt-img src="/kenminwari.png" width="736" class='kenminwari' alt="kenminwari" loading="lazy" />
           </a>
