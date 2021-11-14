@@ -45,7 +45,8 @@ export default {
   buildModules: [
     '@nuxtjs/google-fonts',
     '@nuxt/image',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa'
   ],
 
   googleFonts: {
@@ -59,8 +60,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/google-gtag',
-    '@nuxtjs/pwa'
+    '@nuxtjs/google-gtag'
   ],
 
   'google-gtag': {
@@ -81,6 +81,10 @@ export default {
     'og:description': 'スペイン語で“集い”や“同盟”を意味する当施設は、誰もが気軽にご利用できる福島の拠点として お食事のできるカフェラウンジと宿泊のできるベッドルームを備えています',
     theme_color: '#02569B',
     background_color: '#02569B'
+  },
+
+  pwa: {
+    icon: false // disables the icon module
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
