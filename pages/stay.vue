@@ -147,7 +147,7 @@
         </div>
         <div class="grid col-12" style="max-width: 1024px;padding: .5rem;background: rgb(238, 238, 238 , 0.5);">
           <div v-for="e in domitryimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
-            <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+            <img :src="e.img.url" width="352" :alt="e.name" style="width: 100%;object-fit: cover" loading="lazy" />
             {{ e.name }}
           </div>
         </div>
@@ -160,7 +160,7 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div v-for="e in facilitiesimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
-          <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+          <img :src="e.img.url" width="352" :alt="e.name" style="width: 100%;object-fit: cover" loading="lazy" />
           {{ e.name }}
         </div>
       </div>
@@ -172,7 +172,7 @@
       </div>
       <div class="grid-center col-12">
         <div class="col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
-          <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" />
+          <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" loading="lazy" />
         </div>
       </div>
       <div class="grid-center col-12">
@@ -253,7 +253,7 @@
           </div>
           <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
             <div v-if="breakfastimg1 != undefined" class="grid col-6_sm-12" style="padding: .5rem">
-              <img :src="breakfastimg1.img.url" width="100%" alt="top" style="width: 100%;object-fit: cover" />
+              <img :src="breakfastimg1.img.url" width="100%" :alt="breakfastimg1.name" style="width: 100%;object-fit: cover" loading="lazy" />
               {{ breakfastimg1.name }}
             </div>
             <div class="col-6_sm-12" style="padding: .5rem">
@@ -267,7 +267,7 @@
             </div>
             <div class="grid col-12">
               <div v-for="e in breakfastimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
-                <img :src="e.img.url" width="352" alt="top" style="width: 100%;object-fit: cover" />
+                <img :src="e.img.url" width="352" :alt="e.name" style="width: 100%;object-fit: cover" loading="lazy" />
                 {{ e.name }}
               </div>
             </div>
