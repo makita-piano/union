@@ -2,12 +2,12 @@
   <div>
     <header>
       <div class="grid display-none-mobile header-menu-pc">
-        <div class="col-4">
+        <div class="col-3">
           <NuxtLink to="/">
             <nuxt-img src="/union.png" width="378px" height="240px" style="margin-left: 1rem;vertical-align: middle;box-sizing: content-box;width: 189px;height: 120px" alt="union" />
           </NuxtLink>
         </div>
-        <div class="grid col-8">
+        <div class="grid col-9">
           <ul class="grid col-12" style="position: relative">
             <li class="col-middle">
               <NuxtLink to="/stay">
@@ -22,6 +22,11 @@
             <li class="col-middle">
               <NuxtLink to="/plan">
                 PLAN
+              </NuxtLink>
+            </li>
+            <li class="col-middle">
+              <NuxtLink to="/workcation">
+                WORKCATION
               </NuxtLink>
             </li>
             <li class="col-middle">
@@ -71,6 +76,9 @@
               <NuxtLink to="/plan">PLAN</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
+              <NuxtLink to="/workcation">WORKCATION</NuxtLink>
+            </li>
+            <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
@@ -118,7 +126,7 @@
       }
     },
     mounted(){
-      this.navLeftAfter = 100 / 7 * this.$route.meta.index + 100 / 14
+      this.navLeftAfter = 100 / 8 * this.$route.meta.index + 100 / 16
       this.navLeftSwitch = 1
     },
     computed: {
@@ -140,7 +148,7 @@
     watch: {
       $route(to, from) {
         this.navLeftBefore = this.navLeftAfter
-        this.navLeftAfter = 100 / 7 * to.meta.index + 100 / 14
+        this.navLeftAfter = 100 / 8 * to.meta.index + 100 / 16
         this.navLeftBefore = from.name == "index" ? this.navLeftAfter : this.navLeftBefore
         this.navLeftSwitch = this.navLeftSwitch == 1 ? 2 : 1
       },

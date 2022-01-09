@@ -7,7 +7,7 @@
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="col-12" style="max-width: 1024px">
         <iframe class="map-iframe" src="https://www.google.com/maps/d/embed?mid=1T2L1AZCRcOFLUq8hwKgR2ydABnoUH0Xp&z=16" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="map"></iframe>
-     </div>
+      </div>
       <div class="grid-center col-12">
         <div class="col-12" style="max-width: 1024px;padding: .5rem">
           <h3>住所</h3>

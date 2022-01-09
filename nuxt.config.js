@@ -107,17 +107,20 @@ export default {
           case 'plan':
             route.meta = {index: 2}
             break
-          case 'unicoin':
+          case 'workcation':
             route.meta = {index: 3}
             break
-          case 'access':
+          case 'unicoin':
             route.meta = {index: 4}
             break
-          case 'book':
+          case 'access':
             route.meta = {index: 5}
             break
-          case 'contact':
+          case 'book':
             route.meta = {index: 6}
+            break
+          case 'contact':
+            route.meta = {index: 7}
             break
         }
       })
