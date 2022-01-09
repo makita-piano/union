@@ -10,6 +10,14 @@
         </swiper>
       </client-only>
     </div>
+    <div class="min-width-768" style="padding: 1rem">
+      <div class="youtube">
+        <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/fHa8XtK2mZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        【館内案内】<br>予めご覧になっておくとチェックインがスムーズです
+      </div>
+    </div>
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
@@ -396,6 +404,24 @@ export default {
 .width-80-pc{
   width: 100%;
 }
+.min-width-768 {
+  min-width: 100%;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  text-align: center;
+  border: 1px solid #999;
+}
+.youtube-iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 @media screen and (max-width: 768px) {
   .font-size-1-8-mobile {
@@ -407,7 +433,11 @@ export default {
   .width-80-pc{
     width: 80%;
   }
-
+  .min-width-768 {
+    margin: auto;
+    width: 768px;
+    min-width: auto;
+  }
 }
 
 </style>
