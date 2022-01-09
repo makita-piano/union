@@ -2,7 +2,7 @@
   <div class="grid col-12">
     <div class="col-12 header-img-div">
       <nuxt-img class="header-img" src="/top.jpg" width="100%" style="object-fit: cover" alt="top" />
-      <h1 class="header-img-h1">WORKATION</h1>
+      <h1 class="header-img-h1">WORKCATION</h1>
     </div>
     <div class="grid-center col-12" style="margin-bottom: 2rem">
       <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
@@ -106,9 +106,9 @@ h3 {
 export default {
   head() {
     return {
-      title: "WORKATION｜La Union 福島（ラウニオン）",
+      title: "WORKCATION｜La Union 福島（ラウニオン）",
       meta: [
-        { hid: 'og:title', property: 'og:title', content: 'WORKATION｜La Union 福島（ラウニオン）' }
+        { hid: 'og:title', property: 'og:title', content: 'WORKCATION｜La Union 福島（ラウニオン）' }
       ]
     }
   },

@@ -107,7 +107,7 @@ export default {
           case 'plan':
             route.meta = {index: 2}
             break
-          case 'workcation':
+          case 'workation':
             route.meta = {index: 3}
             break
           case 'unicoin':

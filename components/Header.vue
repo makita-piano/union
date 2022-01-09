@@ -25,8 +25,8 @@
               </NuxtLink>
             </li>
             <li class="col-middle">
-              <NuxtLink to="/workcation">
-                WORKCATION
+              <NuxtLink to="/workation">
+                WORKATION
               </NuxtLink>
             </li>
             <li class="col-middle">
@@ -76,7 +76,7 @@
               <NuxtLink to="/plan">PLAN</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
-              <NuxtLink to="/workcation">WORKCATION</NuxtLink>
+              <NuxtLink to="/workation">WORKATION</NuxtLink>
             </li>
             <li class="menu-item" v-on:click="menuShow">
               <NuxtLink to="/unicoin">UNICOIN</NuxtLink>
