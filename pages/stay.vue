@@ -28,7 +28,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">個室(ツインベッド)</h3>
             </div>
-            <p style="padding: 2rem"><!--ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。--></p>
+            <p style="padding: 2rem">歯ブラシ、バスタオル、ヘアブラシ、ボディスポンジ、ひげ剃り、スリッパ込み</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
@@ -53,7 +53,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      6,200円～
+                      6,200円～／1室
                     </td>
                   </tr>
                 </tbody>
@@ -70,7 +70,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">個室(ダブルベッド)</h3>
             </div>
-            <p style="padding: 2rem"><!--ホテルが新たにカルチャーとして発信する音楽を寛ぎながら体験できる客室空間。全室に音質にこだわったスピーカーを設置し、中でもデラックスツインルームでは高音質を誇る5社のスピーカーを採用。テレビではホテルオリジナル楽曲、映像作品の配信も行います。日本製のアメニティや備品等が作るシンプルで温かみのある空間で、クオリティの高いものづくりも実感していただけることでしょう。好奇心と洗練が共存するお部屋をご用意してお待ちしています。--></p>
+            <p style="padding: 2rem">歯ブラシ、バスタオル、ヘアブラシ、ボディスポンジ、スリッパ込み</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
@@ -95,7 +95,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      5,900円～
+                      5,900円～／1室
                     </td>
                   </tr>
                 </tbody>
@@ -120,7 +120,7 @@
             <div>
               <h3 style="border-bottom: 2px solid #333;margin: 1rem 2rem;padding: 0 0 .3rem 1rem;">ドミトリー</h3>
             </div>
-            <p style="padding: 2rem">必要最低限の電源やデスクライト、usb充電器(ケーブルはご用意ください)、スマホのワイヤレス充電をご利用いただけます。タオル・歯ブラシ付き。　</p>
+            <p style="padding: 2rem">必要最低限の電源やデスクライト、usb充電器(ケーブルはご用意ください)、スマホのワイヤレス充電をご利用いただけます。バスタオル・歯ブラシ付き。　</p>
             <div style="padding: 0 2rem">
               <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                 <tbody>
@@ -145,7 +145,7 @@
                       料金
                     </th>
                     <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                      2,980円～
+                      2,980円～／1ベッド
                     </td>
                   </tr>
                 </tbody>
@@ -180,7 +180,107 @@
       </div>
       <div class="grid-center col-12">
         <div class="col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
-          <nuxt-img src="/fee_table.jpg" width="777" alt="top" style="width: 100%;object-fit: cover" loading="lazy" />
+          <h3 class="col-12" style="margin-bottom: 1rem">オプション料金</h3>
+          <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;text-align: left">
+            <tbody>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  歯ブラシ、レンタルフェイスタオル、ヘアブラシ、ボディスポンジ、ひげ剃り、スリッパ
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  各¥100
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタルバスタオル、レンタルパジャマ
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥200
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  洗濯機（乾燥機込み）
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥400
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  朝食（7:30～9:00）
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥660
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタルモバイルプロジェクター
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥1,000/1日
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタルPC
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥300/1時間
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタルキーボード
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  ¥300
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  湯たんぽ
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  無料
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  充電ケーブル
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  無料（¥1,000のデポジットをお預かりします）
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタルルーター(データ無制限)
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  1日/¥500
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  レンタサイクル（ヘルメット、ライト、鍵込み）
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  3時間　¥1,500 ／ 1日　 ¥3,000
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  湯たんぽ
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  無料
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       <div class="grid-center col-12">
@@ -253,6 +353,45 @@
           </div>
         </div>
       </div>
+      <div class="grid-center col-12">
+        <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
+          <h3 class="col-12" style="margin-bottom: 1rem">デイユース</h3>
+          <div class="width-80-pc" style="padding: 0 1rem">
+            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;margin-top: 1rem">
+              <tbody>
+                <tr>
+                  <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    11:00～15：00
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    個室
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    当日料金から－¥1,500
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    ドミトリー
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    当日料金から－¥500
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    前日～当日午前中までのご予約のみ。<br>
+                    基本アメニティなし。シャワー利用なし。シャワー希望の場合タオル込¥300/1人
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
       <div class="grid-center col-12">
         <div class="grid col-12" style="width: 100%;max-width: 777px;padding: 0 1rem 2rem;">
           <h3 class="col-12" style="margin-bottom: 1rem">朝食</h3>

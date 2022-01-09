@@ -14,7 +14,7 @@
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px">
             <p style="padding: 1rem 2rem">
               仕事の効率アップもリフレッシュも叶う宿泊体験をご用意しています。<br class="display-none-mobile">
-              モバイルルーター、電動自転車などの各種レンタルも承っております。<br class="display-none-mobile">
+              モバイルルーター、PC、キーボード、電動自転車などの各種レンタルも承っております。<br class="display-none-mobile">
               詳しくはお問合せください。
             </p>
           </div>
