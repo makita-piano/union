@@ -1,6 +1,3 @@
-const gtmHeadTag = `<div id="fb-root"></div>`
-
-
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -35,7 +32,6 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~/plugins/swiper', mode: 'client' },
-    { src: '~/plugins/vue-fb-customer-chat.js', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
