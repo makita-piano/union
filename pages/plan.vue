@@ -29,7 +29,7 @@
           </tr>
           <tr>
             <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: center">
-              6,000円／h + 300円／人(1ドリンク代)
+              5,000円／h + 300円／人(1ドリンク代)
             </td>
           </tr>
         </table>
@@ -62,15 +62,15 @@
                 撤収時間サービス<br class="display-none-pc">(4時間以上ご利用の場合)
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                利用時間後の30分
+                利用時間前後の30分
               </td>
             </tr>
             <tr>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                マイク
+                マイク・スピーカー
               </td>
               <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                300円／本
+                無料
               </td>
             </tr>
             <tr>
@@ -93,10 +93,10 @@
         </table>
         <div class="col-12">
           <p style="margin: .5rem 0">例：13:00～18:00、20人での貸切の場合<br>
-          基本料：6,000円 x 5h<br>
+          基本料：5,000円 x 5h<br>
           時間帯割引：-1,000円 x 4h<br>
           ドリンク代：300円 x 20人<br>
-          総計の目安：32,000円
+          総計の目安：27,000円
           </p>
           <p style="margin: .5rem 0">
             ※ご利用用途に応じて、料金の相談も可能ですのでお問合せください。<br>
