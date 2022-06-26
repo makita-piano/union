@@ -430,43 +430,9 @@
       <div class="grid col-12 room-div" style="padding: 0 1rem;max-width: 777px;">
         <div class="grid col-12">
           <h3 class="col-12" style="margin-bottom: 1rem">キャンセル料について</h3>
-          <div class="width-80-pc" style="padding: 0 1rem">
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
-              <tbody>
-                <tr>
-                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    7日前 ~ 3日前
-                  </th>
-                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    宿泊料金の10%
-                  </td>
-                </tr>
-                <tr>
-                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    2日前
-                  </th>
-                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    宿泊料金の50%
-                  </td>
-                </tr>
-                <tr>
-                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    前日
-                  </th>
-                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    宿泊料金の80%
-                  </td>
-                </tr>
-                <tr>
-                  <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    当日
-                  </th>
-                  <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    宿泊料金の100%
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div style="border: 3px solid #999;padding: .5rem;">
+            チェックイン日の3日前より後のキャンセルは、
+            宿泊予約料金の100%を申し受けます。５名様以上のご宿泊および繁忙期（4/24~5/08, 8/10~8/24,12/23~1/03）は１週間前より申し受けます。
           </div>
           <h3 class="col-12" style="margin: 3rem 0 1rem">宿泊について</h3>
           <div>
@@ -476,6 +442,7 @@
             <li>チェックアウト時間を超えてのご滞在は１時間につき1,000円、３時間以上の場合は一泊分をお支払いいただきます。</li>
             <li>自転車やバイクは階段下をご利用ください。ただし、1Fは月極駐車場となっておりますので、利用の妨げにならないようご注意ください。</li>
             <li>スポーツバイクなどは室内での保管も可能ですので、チェックイン時にお申し付けください。</li>
+            <li>ドミトリールーム、5名様以上のご予約の場合は事前にお知らせください。</li>
           </div>
           <h3 class="col-12" style="margin: 3rem 0 1rem">ご利用のお願い</h3>
           <li>古い建物をリノベーションしたおり、音が響きやすいため、他のお客様へ
