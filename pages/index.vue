@@ -105,10 +105,10 @@
                 <div>Instagram</div>
                 <div class="social-name">@launifuku</div>
               </div>
+              <p class="follow_me" data-heading="Follow Me！">
+                Follow Me！
+              </p>
             </a>
-            <p class="follow_me" data-heading="Follow Me！">
-              Follow Me！
-            </p>
           </div>
         </div>
       </div>
