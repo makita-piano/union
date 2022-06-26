@@ -279,6 +279,14 @@
                   無料
                 </td>
               </tr>
+              <tr>
+                <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  エクストラベッド
+                </th>
+                <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  当日のドミトリー料金（3,000円を下回る場合は3,000円）
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
