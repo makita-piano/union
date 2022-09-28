@@ -1,11 +1,11 @@
 <template>
   <div class="grid col-12">
-    <div class="grid-center col-12">
+    <div class="grid-center-middle col-12" style="min-height: 80vh">
       <div class="col-12 center-align" style="margin-bottom: 2rem">
         <h2 style="margin-top: 2rem">Corporate Profile</h2>
         <div>会社概要</div>
       </div>
-      <div class="grid col-12" style="padding: 0 1rem;max-width: 768px;margin: auto">
+      <div class="grid col-12" style="padding: 0 1rem;max-width: 768px;margin: auto;">
         <div class="col-12 title">
           社名
         </div>

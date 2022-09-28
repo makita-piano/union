@@ -265,14 +265,14 @@ header a{
 
 .menu-trigger span:nth-of-type(4) {
     color: white;
-    left: 16px;
+    left: 13px;
     top: 34px;
     font-size: .8rem;
     background-color: black;
     z-index: 3;
 }
 .menu-trigger.active span:nth-of-type(4) {
-    left: 16.5px;
+    left: 15px;
     top: 38px;
 }
 .menu-container {

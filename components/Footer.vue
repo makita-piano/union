@@ -2,14 +2,17 @@
   <footer style="background-color: #000;padding: 1.5rem;color: #939597">
     <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;text-align: center;margin-bottom: 1rem">
-        <div class="col-4_sm-6">
+        <div class="col-4_sm-6" style="margin-bottom: .5rem">
           <NuxtLink to="/outline">会社概要</NuxtLink>
         </div>
-        <div class="col-4_sm-6">
+        <div class="col-4_sm-6" style="margin-bottom: .5rem">
           <NuxtLink to="/terms">宿泊約款</NuxtLink>
         </div>
-        <div class="col-4_sm-6">
+        <div class="col-4_sm-6" style="margin-bottom: .5rem">
           <NuxtLink to="/policy">個人情報保護方針</NuxtLink>
+        </div>
+        <div class="col-4_sm-6" style="margin-bottom: .5rem">
+          <a href="https://launion.jbplt.jp" target="_blank">採用情報</a>
         </div>
       </div>
       <div class="col-12 text-align-center-pc">
