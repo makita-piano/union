@@ -110,7 +110,8 @@
           </div>
         </div>
       </div>
-
+    </div>
+    <div class="grid-center col-12">
       <div class="grid col-12" style="max-width: 1024px;padding: 1rem;">
         <div class="grid col-12" style="background: rgb(238, 238, 238 , 0.5);padding: 1rem">
           <div class="grid col-6_sm-12">

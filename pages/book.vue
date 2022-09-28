@@ -10,13 +10,6 @@
           <h2 style="text-align: center;margin-top: 2rem">BOOK</h2>
           <div style="text-align: center">宿泊予約</div>
         </div>
-        <div class="grid-center col-12">
-          <div class="col-6_sm-12" style="padding: 1rem">
-            <a href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
-              <nuxt-img src="/kenminwari.png" width="736" style="width: 100%" alt="top" loading="lazy" />
-            </a>
-          </div>
-        </div>
         <div class="grid min-width-768" style="padding: 0 1rem">
           <a class="col-6_sm-12 reserve_btn" href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
             <div style="padding: 1.5rem">

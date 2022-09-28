@@ -141,7 +141,7 @@
         return {
           '--navLeftBefore': this.navLeftBefore + "%",
           '--navLeftAfter': this.navLeftAfter + "%",
-          '--navLeftShow': this.$route.path == "/" ? 'none' : 'block'
+          '--navLeftShow':  this.$route.path == "/" || this.$route.path == "/terms" || this.$route.path == "/policy" || this.$route.path == "/outline"  ? 'none' : 'block'
         }
       }
     },
@@ -149,7 +149,7 @@
       $route(to, from) {
         this.navLeftBefore = this.navLeftAfter
         this.navLeftAfter = 100 / 8 * to.meta.index + 100 / 16
-        this.navLeftBefore = from.name == "index" ? this.navLeftAfter : this.navLeftBefore
+        this.navLeftBefore = from.name == "index" || from.name == "terms" || from.name == "policy" || from.name == "outline" ? this.navLeftAfter : this.navLeftBefore
         this.navLeftSwitch = this.navLeftSwitch == 1 ? 2 : 1
       },
     },

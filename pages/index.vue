@@ -11,13 +11,7 @@
       </client-only>
     </div>
     <div class="col-12" style="padding: .5rem">
-      <div class="grid-center min-width-768" style="margin-bottom: 1rem">
-        <div class="col-12 center-align">
-          <a href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" rel="noreferrer">
-            <nuxt-img src="/kenminwari.png" width="736" class='kenminwari' alt="kenminwari" loading="lazy" />
-          </a>
-        </div>
-      </div>
+      <div v-if="message" class="message" v-html="message"></div>
       <div class="top-box">
         ここは福島県福島市大町１丁目。<br>まちの接点となる福島の入口です。<br>ご旅行の方も地元の方も気軽に<br class="display-none-pc">集い、<br class="display-none-mobile">語らい、交わる場所を<br class="display-none-pc">ご用意しております。
       </div>
@@ -109,6 +103,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   data () {
     return {
@@ -125,7 +121,18 @@ export default {
         loop: true,
         effect: 'fade',
       },
+      message: undefined
     }
+  },
+  created(){
+    axios
+      .get(this.$config.VUE_APP_MICROCMS_URL + "index",{
+        headers: { "X-API-KEY": this.$config.VUE_APP_MICROCMS_KEY},
+        data: {}
+    })
+      .then(v => {
+        this.message = v.data.message;
+    });
   },
 }
 </script>
@@ -389,6 +396,14 @@ export default {
   min-width: 100%;
 }
 
+.message {
+  text-align: center;
+  border-radius: 0.3rem;
+  margin: 1rem auto 2rem auto;
+  padding: 1rem 0;
+  background: #eee;
+}
+
 @media screen and (max-width: 768px) {
   .banner {
     font-size: .8rem;
@@ -409,6 +424,9 @@ export default {
   }
 }
 @media screen and (min-width: 769px) {
+  .message{
+    max-width: 600px;
+  }
   .kenminwari {
     width: 250px;
   }
