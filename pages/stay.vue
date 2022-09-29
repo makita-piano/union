@@ -414,12 +414,11 @@
             </div>
             <div class="col-6_sm-12" style="padding: .5rem">
               <h3>メニュー</h3>
-            ・フレンチートーストorレシュティ<br>
-            ・コーヒー<br>
-            ・紅茶<br>
+            ・フレンチートースト<br>
+            ・コーヒーor紅茶<br>
             ・サラダ
               <h3 style="margin-top: 1rem">料金</h3>
-              660円
+              680円
             </div>
             <div class="grid col-12">
               <div v-for="e in breakfastimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
