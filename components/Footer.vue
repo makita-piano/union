@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="col-12 text-align-center-pc">
-        TEL：024-572-5838<br class="display-none-pc"><span class="display-none-mobile">　／</span>
+        TEL：050-1807-1616<br class="display-none-pc"><span class="display-none-mobile">　／</span>
         〒960-8041<br class="display-none-pc">
         福島県福島市大町1－12　長谷川第2ビル
       </div>
