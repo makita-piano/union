@@ -33,7 +33,7 @@
           <div style="text-align: center">料金プラン</div>
         </div>
         <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
-          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
+          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 2rem">
             <h3 class="col-12" style="margin-bottom: 1rem">ワーケーションパック</h3>
             <div class="col-12" style="margin-bottom: .5rem">
               ※事前のご連絡が必要です。
@@ -70,7 +70,7 @@
               </div>
             </div>
           </div>
-          <div class="grid-center col-12" style="padding-top: 1rem">
+          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 2rem">
             <h3 class="col-12" style="margin-bottom: 1rem">共用パソコン</h3>
             <table style="border-collapse: collapse;width: 100%">
               <colgroup>
@@ -99,11 +99,11 @@
           <div class="grid-center col-12" style="padding-top: 1rem">
             <div class="grid-center col-12" style="max-width: 768px;">
               <div class="col-6_sm-12">
-                <nuxt-img src="/workation/imac.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem " alt="top" />
+                <nuxt-img src="/workation/imac.jpg" width="100%" class="cycle-img" alt="imac" />
               </div>
             </div>
           </div>
-          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
+          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 2rem">
             <h3 class="col-12" style="margin-bottom: 1rem">A3対応複合機</h3>
             <table style="border-collapse: collapse;width: 100%">
               <colgroup>
@@ -135,7 +135,7 @@
               </tbody>
             </table>
           </div>
-          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
+          <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 2rem">
             <h3 class="col-12" style="margin-bottom: 1rem">フォトプリンタ</h3>
             <table style="border-collapse: collapse;width: 100%">
               <colgroup>
