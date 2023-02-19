@@ -39,6 +39,10 @@
               ※事前のご連絡が必要です。
             </div>
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 50%;">
+              </colgroup>
               <tbody>
                 <tr>
                   <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
@@ -67,6 +71,12 @@
             </div>
             <h3 class="col-12" style="margin-bottom: 1rem">共用パソコン</h3>
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <colgroup>
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+              </colgroup>
               <tbody>
                 <tr>
                   <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
@@ -92,8 +102,12 @@
             </div>
           </div>
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
-            <h3 class="col-12" style="margin-bottom: 1rem">A3対応複合機/h3>
+            <h3 class="col-12" style="margin-bottom: 1rem">A3対応複合機</h3>
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 50%;">
+              </colgroup>
               <tbody>
                 <tr>
                   <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
@@ -122,6 +136,10 @@
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
             <h3 class="col-12" style="margin-bottom: 1rem">フォトプリンタ</h3>
             <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+              <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 50%;">
+              </colgroup>
               <tbody>
                 <tr>
                   <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
