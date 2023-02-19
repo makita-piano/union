@@ -35,7 +35,7 @@
         <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
             <h3 class="col-12" style="margin-bottom: 1rem">ワーケーションパック</h3>
-            <div class="col-12" style="margin: .5rem 0">
+            <div class="col-12" style="margin-bottom: .5rem">
               ※事前のご連絡が必要です。
             </div>
             <table style="border-collapse: collapse;width: 100%">
@@ -69,6 +69,8 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="grid-center col-12" style="padding-top: 1rem">
             <h3 class="col-12" style="margin-bottom: 1rem">共用パソコン</h3>
             <table style="border-collapse: collapse;width: 100%">
               <colgroup>
@@ -94,8 +96,8 @@
               </tbody>
             </table>
           </div>
-          <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
-            <div class="grid-center col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
+          <div class="grid-center col-12" style="padding-top: 1rem">
+            <div class="grid-center col-12" style="max-width: 768px;">
               <div class="col-6_sm-12">
                 <nuxt-img src="/workation/imac.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem " alt="top" />
               </div>
@@ -158,7 +160,7 @@
             </table>
           </div>
           <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
-            <div class="grid-center col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
+            <div class="grid-center col-12" style="max-width: 768px;">
               <div class="col-6_sm-12">
                 <nuxt-img src="/workation/printer.jpg" width="100%" class="cycle-img" alt="printer" />
               </div>
