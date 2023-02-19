@@ -29,7 +29,7 @@
       </div>
       <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
         <div class="col-12" style="margin-bottom: 2rem">
-          <h2 style="text-align: center;margin-top: 2rem">ABOUT</h2>
+          <h2 style="text-align: center;margin-top: 2rem">FEE PLANS</h2>
           <div style="text-align: center">料金プラン</div>
         </div>
         <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
@@ -38,7 +38,7 @@
             <div class="col-12" style="margin: .5rem 0">
               ※事前のご連絡が必要です。
             </div>
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+            <table style="border-collapse: collapse;width: 100%">
               <colgroup>
                 <col style="width: 50%;">
                 <col style="width: 50%;">
@@ -60,17 +60,17 @@
               </tbody>
             </table>
             <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
-              <div class="grid col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
+              <div class="grid col-12" style="max-width: 768px;">
                 <div class="col-6_sm-12">
-                  <nuxt-img src="/cycle1.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem " alt="top" />
+                  <nuxt-img src="/cycle1.jpg" width="100%" class="cycle-img" alt="cycle1" />
                 </div>
                 <div class="col-6_sm-12">
-                  <nuxt-img src="/cycle2.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem" alt="top" />
+                  <nuxt-img src="/cycle2.jpg" width="100%" class="cycle-img" alt="cycle2" />
                 </div>
               </div>
             </div>
             <h3 class="col-12" style="margin-bottom: 1rem">共用パソコン</h3>
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+            <table style="border-collapse: collapse;width: 100%">
               <colgroup>
                 <col style="width: 25%;">
                 <col style="width: 25%;">
@@ -103,7 +103,7 @@
           </div>
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
             <h3 class="col-12" style="margin-bottom: 1rem">A3対応複合機</h3>
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+            <table style="border-collapse: collapse;width: 100%">
               <colgroup>
                 <col style="width: 50%;">
                 <col style="width: 50%;">
@@ -135,7 +135,7 @@
           </div>
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
             <h3 class="col-12" style="margin-bottom: 1rem">フォトプリンタ</h3>
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+            <table style="border-collapse: collapse;width: 100%">
               <colgroup>
                 <col style="width: 50%;">
                 <col style="width: 50%;">
@@ -160,7 +160,7 @@
           <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
             <div class="grid-center col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
               <div class="col-6_sm-12">
-                <nuxt-img src="/workation/printer.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem " alt="top" />
+                <nuxt-img src="/workation/printer.jpg" width="100%" class="cycle-img" alt="printer" />
               </div>
             </div>
           </div>
@@ -200,6 +200,10 @@
 </template>
 
 <style scoped>
+.cycle-img{
+  object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
   .map-iframe {
     height: 375px;
@@ -209,6 +213,9 @@
 @media screen and (min-width: 769px) {
   .map-iframe {
     height: 520px;
+  }
+  .cycle-img{
+    padding: .5rem 2rem;
   }
 }
 </style>
