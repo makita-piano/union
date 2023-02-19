@@ -95,11 +95,11 @@
                 </tr>
               </tbody>
             </table>
-          </div>
-          <div class="grid-center col-12" style="padding-top: 1rem">
-            <div class="grid-center col-12" style="max-width: 768px;">
-              <div class="col-6_sm-12">
-                <nuxt-img src="/workation/imac.jpg" width="100%" class="cycle-img" alt="imac" />
+            <div class="grid-center col-12" style="padding-top: 1rem">
+              <div class="grid-center col-12" style="max-width: 768px;">
+                <div class="col-6_sm-12">
+                  <nuxt-img src="/workation/imac.jpg" width="100%" class="cycle-img" alt="imac" />
+                </div>
               </div>
             </div>
           </div>
