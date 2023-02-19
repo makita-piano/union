@@ -13,35 +13,51 @@
         <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px">
             <p style="padding: 1rem 2rem">
-              「福島の街なかまるごとワーケーションスペース」<br>
-              気に入った場所で働けば仕事も捗るかも。<br>
-WiFiテザリングできるレンタルスマートフォンで街なかのあらゆる場所が作業スペースになります。
-データ制限のない5G対応回線で、街なかのワーケーションスポットやモデルルートも地図アプリに格納してあります。
-街なかの移動には小さいながらもパワフルな電動自転車を用意しました。
-飯坂線や阿武隈急行線はサイクルトレインを実施しているので、交通機関を組み合わせての移動もできちゃいます。
-感染症のリスクをできるだけ抑えながら、好きな場所でワーケーションをお楽しみください。
+              館内でも、外でも。
+              福島でのご滞在を楽しみながら、仕事もはかどる環境をご用意しております。
+              WiFiテザリングできるレンタルスマートフォンで街なかのあらゆる場所が作業スペースになります。
+              データ制限のない5G対応回線で、街なかのワーケーションスポットやモデルルートも地図アプリに格納してあります。 
+              街なかの移動には小さいながらもパワフルな電動自転車を用意しました。 
+              飯坂線や阿武隈急行線はサイクルトレインを実施しているので、交通機関を組み合わせての移動もできちゃいます。 
+              感染症のリスクをできるだけ抑えながら、好きな場所でワーケーションをお楽しみください。
+              ちょっとした調べ物や急なお仕事にはラウンジに設置してある共用パソコンをご利用くださいませ。
+              館内全体にメッシュwifiが飛んでいるため、ご自身のデバイスもどこでも接続いただけます。
+              A3サイズ対応の複合機やお出かけ先で思い出を印刷できるフォトプリンタもご利用いただけます。
             </p>
           </div>
         </div>
       </div>
       <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
-        <div class="grid col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
+        <div class="col-12" style="margin-bottom: 2rem">
+          <h2 style="text-align: center;margin-top: 2rem">ABOUT</h2>
+          <div style="text-align: center">料金プラン</div>
+        </div>
+        <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
           <div class="grid col-12_sm-12" style="margin: auto;max-width: 768px;margin-bottom: 1rem">
-            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%;text-align: left">
+            <h3 class="col-12" style="margin-bottom: 1rem">ワーケーションパック</h3>
+            <div class="col-12" style="margin: .5rem 0">
+              ※事前のご連絡が必要です。
+            </div>
+            <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
               <tbody>
                 <tr>
-                  <th colspan="3"style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                    ワーケーションパック<br class="display-none-mobile">（電動自転車、ルーター用レンタルスマートフォン、ヘルメット、ライト）
-                  </th>
-                </tr>
-                <tr>
-                  <td colspan="3"style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    料金
+                  </td>
+                  <td colspan="1" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                     ¥3,300
+                  </td>
+                  <td colspan="2" style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                    電動自転車、ルーター用レンタルスマートフォン、ヘルメット、ライト
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
+        </div>
+      </div>    
+      <div class="grid-center col-12" style="background: rgb(238, 238, 238 , 0.5);padding-top: 1rem">
+        <div class="grid col-12" style="max-width: 768px;padding: 0 1rem 2rem;">
           <div class="col-6_sm-12">
             <nuxt-img src="/cycle1.jpg" width="100%" style="object-fit: cover;padding: .5rem 2rem " alt="top" />
           </div>
