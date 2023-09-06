@@ -19,7 +19,7 @@
           <a href="https://goo.gl/maps/VB7pwCBj5uGkb2t5A" target="_blank" style="margin-bottom: .5rem">Google Map</a>
 
           <div class="col-12" style="max-width: 1024px;margin-top: .5rem">
-            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!4v1664804250568!6m8!1m7!1sF5M6LR7scUrLh2VT8p6Zyw!2m2!1d37.75485593888182!2d140.4660499590093!3f302.30011487481596!4f-7.362819110498535!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="streetview"></iframe>
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!4v1694011151535!6m8!1m7!1soQC35Vy2Vq5jdodngW_z0w!2m2!1d37.75489710853196!2d140.4660581055336!3f262.09182202784416!4f5.706344657700029!5f0.4000000000000002" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" title="streetview"></iframe>
           </div>
 
           <h3 style="margin-top: 2rem">駐車場</h3>
