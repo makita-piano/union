@@ -20,7 +20,7 @@
       </div>
     </div>
   </div>
-</template>
+</template> 
 
 <style scoped>
 .reserve_btn{
