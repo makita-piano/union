@@ -54,15 +54,15 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div class="grid col-6_sm-12" style="padding: .5rem">
-          <img v-if="foodimg1 != undefined" :src="foodimg1.img.url" style="width: 100%" />
+          <img v-if="foodimg1 != undefined" :src="`${foodimg1.img.url}?w=1000`" style="width: 100%" />
         </div>
         <div class="grid col-6_sm-12">
-          <p style="padding: 2rem"><!--『スパニッシュイタリアン』をテーマに独自のセンスを融合させたオールデイダイニングです。旬の国産食材が織りなすメニューを、日本のものづくりの粋を感じるグラスや食器に添えてご提供します。カジュアルなバーゾーン、活気あるオープンキッチンが覗くレストランゾーンで構成された空間では、食事を共有する精神が根付くスペインバルの温かみに触れられるでしょう。心躍る音楽とともに豊かな時間をお過ごしください。--></p>
+          <p style="padding: 2rem"></p>
         </div>
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div v-for="e in foodimgs" v-bind:key="e.title" class="col-3_sm-6" style="padding: .5rem">
-          <img :src="e.img.url" style="width: 100%">
+          <img :src="`${e.img.url}?w=400`" style="width: 100%">
           {{ e.name }}
         </div>
       </div>
