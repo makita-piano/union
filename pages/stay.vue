@@ -169,7 +169,7 @@
       </div>
       <div class="grid col-12" style="max-width: 1024px;padding: 0 1rem 2rem;">
         <div v-for="e in facilitiesimgs" v-bind:key="e.name" class="col-3_sm-6" style="padding: .5rem">
-          <img :src="`${e.img.url}?w=400" width="352" :alt="e.name" style="width: 100%;object-fit: cover" loading="lazy" />
+          <img :src="`${e.img.url}?w=400`" width="352" :alt="e.name" style="width: 100%;object-fit: cover" loading="lazy" />
           {{ e.name }}
         </div>
       </div>
