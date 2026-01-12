@@ -13,7 +13,14 @@
         <div class="grid min-width-768" style="padding: 0 1rem">
           <a class="col-6_sm-12 reserve_btn" href="https://tabichat.jp/engine/hotels/launion" target="_blank" style="text-decoration: none">
             <div style="padding: 1.5rem">
-              通常予約
+              La Union宿泊予約
+            </div>
+          </a>
+        </div>
+        <div class="grid min-width-768" style="padding: 0 1rem;margin-top: 4rem">
+          <a class="col-6_sm-12 reserve_btn" href="https://tabichat.jp/engine/hotels/el_amarillo" target="_blank" style="text-decoration: none">
+            <div style="padding: 1.5rem">
+              El Amarillo宿泊予約
             </div>
           </a>
         </div>
@@ -80,4 +87,5 @@ export default {
   },
 }
 </script>
+
 
