@@ -11,7 +11,7 @@
           <div style="text-align: center">宿泊予約</div>
         </div>
         <div class="grid min-width-768" style="padding: 0 1rem">
-          <a class="col-6_sm-12 reserve_btn" href="https://metro-booking-secure.jp/landing/YGX8Nw15Dnjmn5Ko-o40JbrxPnLrMd9km-1/" target="_blank" style="text-decoration: none">
+          <a class="col-6_sm-12 reserve_btn" href="https://tabichat.jp/engine/hotels/launion" target="_blank" style="text-decoration: none">
             <div style="padding: 1.5rem">
               通常予約
             </div>
@@ -80,3 +80,4 @@ export default {
   },
 }
 </script>
+
